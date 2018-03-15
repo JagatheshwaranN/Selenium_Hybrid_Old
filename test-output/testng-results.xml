@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="54569" started-at="2018-02-09T02:55:27Z" finished-at="2018-02-09T02:56:21Z">
+    <groups>
+    </groups>
+    <test name="SignIn" duration-ms="54569" started-at="2018-02-09T02:55:27Z" finished-at="2018-02-09T02:56:21Z">
+      <class name="com.jaga.hybrid.testscripts.SignUp_AccountCreation">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.jaga.hybrid.testscripts.SignUp_AccountCreation@19ad2e3]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2018-02-09T08:25:28Z" finished-at="2018-02-09T08:25:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jaga.hybrid.testscripts.SignUp_AccountCreation.accountRegistration(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.jaga.hybrid.testscripts.SignUp_AccountCreation@19ad2e3]" name="launchBrowser" is-config="true" duration-ms="48700" started-at="2018-02-09T08:25:28Z" finished-at="2018-02-09T08:26:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="accountRegistration(java.lang.String, java.lang.String)[pri:0, instance:com.jaga.hybrid.testscripts.SignUp_AccountCreation@19ad2e3]" name="accountRegistration" duration-ms="4389" started-at="2018-02-09T08:26:16Z" data-provider="testData" finished-at="2018-02-09T08:26:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testjaga277171@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jaga@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountRegistration -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.jaga.hybrid.testscripts.SignUp_AccountCreation@19ad2e3]" name="afterClass" is-config="true" duration-ms="553" started-at="2018-02-09T08:26:21Z" finished-at="2018-02-09T08:26:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jaga.hybrid.testscripts.SignUp_AccountCreation@19ad2e3]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-02-09T08:26:21Z" finished-at="2018-02-09T08:26:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=accountRegistration status=SUCCESS method=SignUp_AccountCreation.accountRegistration(java.lang.String, java.lang.String)[pri:0, instance:com.jaga.hybrid.testscripts.SignUp_AccountCreation@19ad2e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.jaga.hybrid.testscripts.SignUp_AccountCreation -->
+    </test> <!-- SignIn -->
+  </suite> <!-- Regression Suite -->
+</testng-results>

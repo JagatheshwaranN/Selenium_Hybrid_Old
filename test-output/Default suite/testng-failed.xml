@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.jaga.hybrid.testscripts.SignUp_AccountCreation">
+        <methods>
+          <include name="accountRegistration" invocation-numbers="0"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="launchBrowser"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.jaga.hybrid.testscripts.SignUp_AccountCreation -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
