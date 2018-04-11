@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.util.Iterator;
 import java.lang.String;
+
+import org.apache.log4j.Logger;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -11,6 +13,8 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelReader {
 
+	public static final Logger logger = Logger.getLogger(ExcelReader.class.getName());
+	
 	public String[][] getExcelData(String excelLocation, String sheetName) {
 		try {
 			String dataset[][] = null;
@@ -63,9 +67,9 @@ public class ExcelReader {
 		return null;
 	}
 
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-	}
+	}*/
 
 }

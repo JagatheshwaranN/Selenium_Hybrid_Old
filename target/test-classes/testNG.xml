@@ -4,9 +4,10 @@
 <suite name="Regression Suite">
 	
 
-	<test name="SignIn">
+	<test name="AccountCreationAndSignIn">
 		<classes>
-			<class name="com.jaga.hybrid.testscripts.SignUp_AccountCreation" />
+		    <class name="com.jaga.hybrid.testscripts.AccountCreation" />
+			<!--<class name="com.jaga.hybrid.testscripts.SignIn" />-->
 		</classes>
 	</test>
 	

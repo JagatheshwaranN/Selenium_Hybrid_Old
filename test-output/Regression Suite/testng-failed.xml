@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
-  <test name="SignIn(failed)">
+  <test name="AccountCreationAndSignIn(failed)">
     <classes>
-      <class name="com.jaga.hybrid.testscripts.SignUp_AccountCreation">
+      <class name="com.jaga.hybrid.testscripts.SignIn">
         <methods>
-          <include name="accountRegistration" invocation-numbers="0"/>
           <include name="afterClass"/>
-          <include name="launchBrowser"/>
+          <include name="afterMethod"/>
+          <include name="init"/>
           <include name="beforeMethod"/>
         </methods>
-      </class> <!-- com.jaga.hybrid.testscripts.SignUp_AccountCreation -->
+      </class> <!-- com.jaga.hybrid.testscripts.SignIn -->
+      <class name="com.jaga.hybrid.testscripts.AccountCreation">
+        <methods>
+          <include name="afterClass"/>
+          <include name="init"/>
+          <include name="createAccount"/>
+        </methods>
+      </class> <!-- com.jaga.hybrid.testscripts.AccountCreation -->
     </classes>
-  </test> <!-- SignIn(failed) -->
+  </test> <!-- AccountCreationAndSignIn(failed) -->
 </suite> <!-- Failed suite [Regression Suite] -->
