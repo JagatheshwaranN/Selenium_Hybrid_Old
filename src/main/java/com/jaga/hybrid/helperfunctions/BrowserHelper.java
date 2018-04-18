@@ -18,12 +18,6 @@ public class BrowserHelper {
 	private static Logger logger = Logger.getLogger(BrowserHelper.class.getName());
 
 	// Created by Jagatheshwaran on 16/3/2018
-	public BrowserHelper(WebDriver driver) {
-		this.driver = driver;
-		logger.info("BrowserHelper : " + this.driver.hashCode());
-	}
-
-	// Created by Jagatheshwaran on 16/3/2018
 	public void goBack() {
 		driver.navigate().back();
 		logger.info("Browser Navigate to Back Page");

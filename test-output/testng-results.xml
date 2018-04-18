@@ -2,89 +2,34 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="121482" started-at="2018-04-02T16:52:37Z" finished-at="2018-04-02T16:54:39Z">
+  <suite name="Default suite" duration-ms="15577" started-at="2018-04-18T04:17:44Z" finished-at="2018-04-18T04:17:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="121482" started-at="2018-04-02T16:52:37Z" finished-at="2018-04-02T16:54:39Z">
-      <class name="com.jaga.hybrid.testscripts.AccountCreation">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.jaga.hybrid.testscripts.AccountCreation@1e4c80f]" name="init" is-config="true" duration-ms="77184" started-at="2018-04-02T22:22:37Z" finished-at="2018-04-02T22:23:55Z">
+    <test name="Default test" duration-ms="15577" started-at="2018-04-18T04:17:44Z" finished-at="2018-04-18T04:17:59Z">
+      <class name="com.jaga.hybrid.testscripts.SignIn">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.jaga.hybrid.testscripts.SignIn@1e4c80f]" name="init" is-config="true" duration-ms="8627" started-at="2018-04-18T09:47:44Z" finished-at="2018-04-18T09:47:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.jaga.hybrid.testscripts.AccountCreation@1e4c80f]" name="beforeMethod" is-config="true" duration-ms="11" started-at="2018-04-02T22:24:14Z" finished-at="2018-04-02T22:24:14Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.jaga.hybrid.testscripts.SignIn@1e4c80f]" name="beforeMethod" is-config="true" duration-ms="11" started-at="2018-04-18T09:47:54Z" finished-at="2018-04-18T09:47:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.jaga.hybrid.testscripts.AccountCreation.createAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+                <![CDATA[public void com.jaga.hybrid.testscripts.SignIn.signIn(java.lang.String,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="createAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jaga.hybrid.testscripts.AccountCreation@1e4c80f]" name="createAccount" duration-ms="15066" started-at="2018-04-02T22:24:14Z" data-provider="createAccount" finished-at="2018-04-02T22:24:29Z">
+        <test-method status="PASS" signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:com.jaga.hybrid.testscripts.SignIn@1e4c80f]" name="signIn" duration-ms="3792" started-at="2018-04-18T09:47:54Z" data-provider="testData" finished-at="2018-04-18T09:47:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Jaga]]>
+                <![CDATA[testjaga18042018@gmail.com]]>
               </value>
             </param>
             <param index="1">
-              <value>
-                <![CDATA[Waran]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[03/03/2018]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[testjaga23032018@gmail.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[IT Company]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Sholinganallur]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[600119]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[Chennai]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[TamilNadu]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[India]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[9876543212]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[jaga@12345]]>
-              </value>
-            </param>
-            <param index="12">
               <value>
                 <![CDATA[jaga@12345]]>
               </value>
@@ -92,23 +37,23 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createAccount -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jaga.hybrid.testscripts.AccountCreation@1e4c80f]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-04-02T22:24:29Z" finished-at="2018-04-02T22:24:29Z">
+        </test-method> <!-- signIn -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jaga.hybrid.testscripts.SignIn@1e4c80f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-04-18T09:47:58Z" finished-at="2018-04-18T09:47:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=createAccount status=SUCCESS method=AccountCreation.createAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jaga.hybrid.testscripts.AccountCreation@1e4c80f] output={null}]]]>
+                <![CDATA[[TestResult name=signIn status=SUCCESS method=SignIn.signIn(java.lang.String, java.lang.String)[pri:0, instance:com.jaga.hybrid.testscripts.SignIn@1e4c80f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.jaga.hybrid.testscripts.AccountCreation@1e4c80f]" name="afterClass" is-config="true" duration-ms="10014" started-at="2018-04-02T22:24:29Z" finished-at="2018-04-02T22:24:39Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.jaga.hybrid.testscripts.SignIn@1e4c80f]" name="afterClass" is-config="true" duration-ms="1746" started-at="2018-04-18T09:47:58Z" finished-at="2018-04-18T09:47:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.jaga.hybrid.testscripts.AccountCreation -->
+      </class> <!-- com.jaga.hybrid.testscripts.SignIn -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

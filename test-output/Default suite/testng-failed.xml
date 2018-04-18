@@ -3,15 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.jaga.hybrid.testscripts.SignUp_AccountCreation">
+      <class name="com.jaga.hybrid.testscripts.AccountCreation">
         <methods>
-          <include name="accountRegistration" invocation-numbers="0"/>
           <include name="afterClass"/>
-          <include name="afterMethod"/>
-          <include name="launchBrowser"/>
-          <include name="beforeMethod"/>
+          <include name="init"/>
+          <include name="createAccount" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.jaga.hybrid.testscripts.SignUp_AccountCreation -->
+      </class> <!-- com.jaga.hybrid.testscripts.AccountCreation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

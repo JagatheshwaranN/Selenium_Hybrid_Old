@@ -25,12 +25,6 @@ public class WaitHelper {
 	private static Logger logger = Logger.getLogger(WaitHelper.class.getName());
 
 	// Created by Jagatheshwaran on 16/3/2018
-	public WaitHelper(WebDriver driver) {
-		this.driver = driver;
-		logger.info("Wait Helper : " + this.driver.hashCode());
-	}
-
-	// Created by Jagatheshwaran on 16/3/2018
 	public void setImplicitWait(long timeout, TimeUnit unit) {
 		logger.info(timeout);
 		driver.manage().timeouts().implicitlyWait(timeout, unit == null ? TimeUnit.SECONDS : unit);

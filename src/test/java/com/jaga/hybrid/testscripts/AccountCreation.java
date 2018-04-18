@@ -1,7 +1,6 @@
 package com.jaga.hybrid.testscripts;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -13,14 +12,16 @@ import com.jaga.hybrid.helperfunctions.VerificationHelper;
  * 
  * @author Jagatheshwaran
  * @since 21/03/2018
- * @Modified 22/03/2018
+ * @Modified 18/04/2018
  *
  */
 public class AccountCreation extends BaseClass {
 
-	DropDownHelper dropdownhelper;
-	VerificationHelper verificationhelper;
 	WebDriver driver;
+	DropDownHelper dropdownhelper = new DropDownHelper();
+	VerificationHelper verificationhelper = new VerificationHelper();
+	
+	
 
 	@DataProvider(name = "createAccount")
 	public String[][] createAccount() {
@@ -45,8 +46,7 @@ public class AccountCreation extends BaseClass {
 			BaseClass.getWebElement("postCode").sendKeys(postcode);
 			BaseClass.getWebElement("cityName").sendKeys(city);
 			BaseClass.getWebElement("stateName").sendKeys(state);
-			BaseClass.loadProperties();
-			dropdownhelper.selectByVisibleTextBy(getLocators1(properties.getProperty("countryName")), Country);
+			dropdownhelper.selectByVisibleText(BaseClass.getWebElement("countryName"), Country);
 			BaseClass.getWebElement("telePhoneNumber").sendKeys(phone);
 			BaseClass.getWebElement("password").sendKeys(password);
 			BaseClass.getWebElement("confirmationPassword").sendKeys(confirmPassword);

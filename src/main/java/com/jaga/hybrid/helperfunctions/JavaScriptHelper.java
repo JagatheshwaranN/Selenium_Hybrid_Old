@@ -14,13 +14,7 @@ import org.openqa.selenium.WebElement;
 public class JavaScriptHelper {
 
 	public WebDriver driver;
-	private static Logger logger =Logger.getLogger(JavaScriptHelper.class.getName());
-
-	// Created by Jagatheshwaran on 16/3/2018
-	public JavaScriptHelper(WebDriver driver) {
-		this.driver = driver;
-		logger.info("JavaScriptHelper : " + this.driver.hashCode());
-	}
+	private static Logger logger = Logger.getLogger(JavaScriptHelper.class.getName());
 
 	// Created by Jagatheshwaran on 16/3/2018
 	public Object executeScript(String script) {
@@ -66,7 +60,7 @@ public class JavaScriptHelper {
 	public void scrollUpVertical() {
 		executeScript("window.scrollTo(0, -document.body.scrollHeight)");
 	}
-	
+
 	// Created by Jagatheshwaran on 16/3/2018
 	public void scrollDownVertical() {
 		executeScript("window.scrollTo(0, document.body.scrollHeight)");
@@ -81,10 +75,9 @@ public class JavaScriptHelper {
 	public void ScrolDownByPixel() {
 		executeScript("window.scrollBy(0,1500)");
 	}
-	
+
 	// Created by Jagatheshwaran on 16/3/2018
-	public void zoomInByPercentage()
-	{
+	public void zoomInByPercentage() {
 		executeScript("document.body.style.zoom='50'");
 	}
 }

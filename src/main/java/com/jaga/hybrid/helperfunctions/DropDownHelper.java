@@ -4,8 +4,6 @@ import java.util.LinkedList;
 import java.util.List;
 
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
@@ -17,15 +15,9 @@ import org.openqa.selenium.support.ui.Select;
  */
 public class DropDownHelper {
 
-	public WebDriver driver;
-	private static Logger logger =Logger.getLogger(DropDownHelper.class.getName());
+	private static Logger logger = Logger.getLogger(DropDownHelper.class.getName());
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public DropDownHelper(WebDriver driver) {
-		this.driver = driver;
-		logger.debug("DropDownHelper : " + this.driver.hashCode());
-	}
-
+	
 	// Created by Jagatheshwaran on 16/3/2018
 	public void selectByValue(WebElement element, String value) {
 		Select select = new Select(element);
@@ -42,7 +34,6 @@ public class DropDownHelper {
 
 	// Created by Jagatheshwaran on 16/3/2018
 	public void selectByVisibleText(WebElement element, String visibletext) {
-		//WebElement element = (WebElement) locators1;
 		Select select = new Select(element);
 		select.selectByVisibleText(visibletext);
 		logger.info("Element : " + element + "Visible Text : " + visibletext);
@@ -69,12 +60,4 @@ public class DropDownHelper {
 
 	}
 
-	public void selectByVisibleTextBy(WebElement locators1, String visibletext) {
-		//WebElement element = driver.findElement(By.name(locators1));
-		Select select = new Select(locators1);
-		select.selectByVisibleText(visibletext);
-		logger.info("Element : " + locators1 + "Visible Text : " + visibletext);
-	}
-
-	
 }

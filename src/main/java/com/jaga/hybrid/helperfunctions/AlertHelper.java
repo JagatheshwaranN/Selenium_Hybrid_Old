@@ -14,13 +14,7 @@ import org.openqa.selenium.WebDriver;
 public class AlertHelper {
 
 	public WebDriver driver;
-	private static Logger logger =Logger.getLogger(AlertHelper.class.getName());
-
-	// Created by Jagatheshwaran on 16/3/2018
-	public AlertHelper(WebDriver driver) {
-		this.driver = driver;
-		logger.info("AlertHelper : " + this.driver.hashCode());
-	}
+	private static Logger logger = Logger.getLogger(AlertHelper.class.getName());
 
 	// Created by Jagatheshwaran on 16/3/2018
 	public Alert getAlert() {
@@ -90,5 +84,5 @@ public class AlertHelper {
 		alert.accept();
 		logger.info("Accepting the Prompt");
 	}
-	
+
 }

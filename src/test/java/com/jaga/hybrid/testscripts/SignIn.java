@@ -15,7 +15,7 @@ import com.jaga.hybrid.helperfunctions.VerificationHelper;
  */
 public class SignIn extends BaseClass {
 
-	VerificationHelper verificationhelper;
+	VerificationHelper verificationhelper = new VerificationHelper();
 
 	@DataProvider(name = "testData")
 	public String[][] dataSource() {

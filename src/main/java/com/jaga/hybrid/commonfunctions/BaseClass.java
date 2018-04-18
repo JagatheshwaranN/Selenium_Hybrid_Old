@@ -97,13 +97,6 @@ public class BaseClass {
 
 		properties = new Properties();
 
-		/*
-		 * file = new File(System.getProperty("user.dir") +
-		 * "//src//main//java//com//jaga//hybrid//properties//config.properties");
-		 * fileinputstream = new FileInputStream(file);
-		 * properties.load(fileinputstream);
-		 */
-
 		file = new File(
 				System.getProperty("user.dir") + "//src//main//java//com//jaga//hybrid//properties//object.properties");
 		fileinputstream = new FileInputStream(file);
@@ -190,12 +183,9 @@ public class BaseClass {
 	}
 
 	public static WebElement getLocator(String locator) throws Exception {
-		// System.out.println("locator > " + locator);
 		String split[] = locator.split(":");
 		String locatorType = split[0];
-		// System.out.println(locatorType);
 		String locatorValue = split[1];
-		// System.out.println(locatorValue);
 
 		if (locatorType.equalsIgnoreCase("id")) {
 			return driver.findElement(By.id(locatorValue));
@@ -246,7 +236,6 @@ public class BaseClass {
 
 	public static WebElement getWebElement(String object) throws Exception {
 		System.out.println("object > " + object);
-		// System.out.println(getLocator(BaseClass.properties.getProperty(object)));
 		return getLocator(BaseClass.properties.getProperty(object));
 	}
 
@@ -256,63 +245,12 @@ public class BaseClass {
 
 	}
 
-	public static WebElement getWebElement1(String object) throws Exception {
-		System.out.println("object > " + object);
-		// System.out.println(getLocator(BaseClass.properties.getProperty(object)));
-		return getLocators1(BaseClass.properties.getProperty(object));
-	}
-
 	public String[][] getData(String excelName, String sheetName) {
 		String excelLocation = System.getProperty("user.dir") + "//src//test//resources//TestData//" + excelName;
 		excelreader = new ExcelReader();
 		System.out.println("Data in Base" + excelreader.getExcelData(excelLocation, sheetName));
 
 		return excelreader.getExcelData(excelLocation, sheetName);
-
-	}
-
-	public static WebElement getLocators1(String locator) throws Exception {
-		System.out.println("locator > " + locator);
-		//String split[] = locator.split(":");
-		String locatorType =  locator.split(":")[0];
-		System.out.println(locatorType);
-		String locatorValue =  locator.split(":")[1];
-		WebElement loc = null;
-		System.out.println(locatorValue);
-
-		if (locatorType.equalsIgnoreCase("id")) {
-			//return By.id(locatorValue);
-		} else if (locatorType.equalsIgnoreCase("name")) {
-			loc = driver.findElement(By.name(locatorValue));
-			System.out.println("locator >>>"+loc);
-			return  loc;
-			
-		} else if (locatorType.equalsIgnoreCase("className")) {
-			//return By.className(locatorValue);
-		} else if (locatorType.equalsIgnoreCase("tagName")) {
-			//return By.tagName(locatorValue);
-		} else if (locatorType.equalsIgnoreCase("linkText")) {
-			//return By.linkText(locatorValue);
-		} else if (locatorType.equalsIgnoreCase("partialLinkText")) {
-		//	return By.partialLinkText(locatorValue);
-		} else if (locatorType.equalsIgnoreCase("cssSelector")) {
-			//return By.cssSelector(locatorValue);
-		} else if (locatorType.equalsIgnoreCase("xpath")) {
-			//return By.xpath(locatorValue);
-		} else
-			throw new Exception("Unknown Locator Type :" + locatorType);
-		//return loc;
-		return loc;
-			
-
-	}
-
-	public static void main(String ar[]) throws Exception {
-		BaseClass bc = new BaseClass();
-
-		loadProperties();
-		//getWebElement1("countryName");
-		getLocators1(BaseClass.properties.getProperty("countryName"));
 
 	}
 
