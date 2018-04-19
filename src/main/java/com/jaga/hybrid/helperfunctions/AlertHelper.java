@@ -5,46 +5,44 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 
+
+
 /**
  * 
  * @author Jagatheshwaran
  * @since 16/3/2018
+ * @Modified 19/4/2018
  *
  */
 public class AlertHelper {
 
-	public WebDriver driver;
-	private static Logger logger = Logger.getLogger(AlertHelper.class.getName());
+	public static WebDriver driver;
+	public static Logger logger = LoggerHelper.getLogger(AlertHelper.class);
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public Alert getAlert() {
+	public static Alert getAlert() {
 		logger.info("Getting the Alert");
 		return driver.switchTo().alert();
 
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public void acceptAlert() {
+	public static void acceptAlert() {
 		logger.info("Accepting the Alert");
 		getAlert().accept();
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public void dismissAlert() {
+	public static void dismissAlert() {
 		logger.info("Dismissing the Alert");
 		getAlert().dismiss();
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public String getAlertText() {
+	public static String getAlertText() {
 		logger.info("Getting the text from the Alert");
 		String text = getAlert().getText();
 		return text;
 
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public boolean isAlertPresent() {
+	public static boolean isAlertPresent() {
 		try {
 			driver.switchTo().alert();
 			logger.info(true);
@@ -56,8 +54,7 @@ public class AlertHelper {
 
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public void acceptAlertIfPresent() {
+	public static void acceptAlertIfPresent() {
 		if (!isAlertPresent()) {
 			return;
 		}
@@ -65,8 +62,7 @@ public class AlertHelper {
 		acceptAlert();
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public void dismissAlertIfPresent() {
+	public static void dismissAlertIfPresent() {
 		if (!isAlertPresent()) {
 			return;
 		}
@@ -74,8 +70,7 @@ public class AlertHelper {
 		dismissAlert();
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public void acceptPrompt(String text) {
+	public static void acceptPrompt(String text) {
 		if (!isAlertPresent()) {
 			return;
 		}

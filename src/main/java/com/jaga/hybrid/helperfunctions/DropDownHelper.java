@@ -11,44 +11,39 @@ import org.openqa.selenium.support.ui.Select;
  * 
  * @author Jagatheshwaran
  * @since 16/3/2018
+ * @Modified 19/4/2018
  *
  */
 public class DropDownHelper {
 
-	private static Logger logger = Logger.getLogger(DropDownHelper.class.getName());
+	public static Logger logger = LoggerHelper.getLogger(DropDownHelper.class);
 
-	
-	// Created by Jagatheshwaran on 16/3/2018
-	public void selectByValue(WebElement element, String value) {
+	public static void selectByValue(WebElement element, String value) {
 		Select select = new Select(element);
 		select.selectByValue(value);
 		logger.info("Element : " + element + "Value : " + value);
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public void selectByIndex(WebElement element, int index) {
+	public static void selectByIndex(WebElement element, int index) {
 		Select select = new Select(element);
 		select.selectByIndex(index);
 		logger.info("Element : " + element + "Index : " + index);
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public void selectByVisibleText(WebElement element, String visibletext) {
+	public static void selectByVisibleText(WebElement element, String visibletext) {
 		Select select = new Select(element);
 		select.selectByVisibleText(visibletext);
 		logger.info("Element : " + element + "Visible Text : " + visibletext);
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public String getSelectValue(WebElement element) {
+	public static String getSelectValue(WebElement element) {
 		String value = new Select(element).getFirstSelectedOption().getText();
 		logger.info("Element : " + element + "Value : " + value);
 		return value;
 
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public List<String> getAllDropDownValue(WebElement element) {
+	public static List<String> getAllDropDownValue(WebElement element) {
 		Select select = new Select(element);
 		List<WebElement> listelements = select.getOptions();
 		List<String> dropdownvalues = new LinkedList<String>();

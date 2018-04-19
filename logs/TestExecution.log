@@ -1,0 +1,3 @@
+2018-04-19 09:16:38 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-04-19 09:16:40 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (2c2140f4fcf936b16ae62a0904335ba8)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-04-19 09:16:40 [INFO ] [SignIn] - [signIn] Login to Application is Successful

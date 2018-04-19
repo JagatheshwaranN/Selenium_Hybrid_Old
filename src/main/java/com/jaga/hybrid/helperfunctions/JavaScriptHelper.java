@@ -9,75 +9,65 @@ import org.openqa.selenium.WebElement;
  * 
  * @author Jagatheshwaran
  * @since 16/3/2018
+ * @Modified 19/4/2018
  *
  */
 public class JavaScriptHelper {
 
-	public WebDriver driver;
-	private static Logger logger = Logger.getLogger(JavaScriptHelper.class.getName());
+	public static WebDriver driver;
+	public static Logger logger = LoggerHelper.getLogger(JavaScriptHelper.class);
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public Object executeScript(String script) {
+	public static Object executeScript(String script) {
 		JavascriptExecutor executor = (JavascriptExecutor) driver;
 		logger.info(script);
 		return executor.executeAsyncScript(script);
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public Object executeScript(String script, Object... arguments) {
+	public static Object executeScript(String script, Object... arguments) {
 		JavascriptExecutor executor = (JavascriptExecutor) driver;
 		logger.info(script);
 		return executor.executeAsyncScript(script, arguments);
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public void scrollToElement(WebElement element) {
+	public static void scrollToElement(WebElement element) {
 		executeScript("window.scrollTo(arguments[0],arguments[1])", element.getLocation().x, element.getLocation().y);
 		logger.info(element);
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public void scrollToElementAndClick(WebElement element) {
+	public static void scrollToElementAndClick(WebElement element) {
 		scrollToElement(element);
 		element.click();
 		logger.info(element);
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public void scrollIntoView(WebElement element) {
+	public static void scrollIntoView(WebElement element) {
 		executeScript("arguments[0].scrollIntoView()", element);
 		logger.info(element);
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public void scrollIntoViewAndClick(WebElement element) {
+	public static void scrollIntoViewAndClick(WebElement element) {
 		scrollIntoView(element);
 		element.click();
 		logger.info(element);
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public void scrollUpVertical() {
+	public static void scrollUpVertical() {
 		executeScript("window.scrollTo(0, -document.body.scrollHeight)");
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public void scrollDownVertical() {
+	public static void scrollDownVertical() {
 		executeScript("window.scrollTo(0, document.body.scrollHeight)");
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public void ScrolUpByPixel() {
+	public static void ScrolUpByPixel() {
 		executeScript("window.scrollBy(0,-1500)");
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public void ScrolDownByPixel() {
+	public static void ScrolDownByPixel() {
 		executeScript("window.scrollBy(0,1500)");
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public void zoomInByPercentage() {
+	public static void zoomInByPercentage() {
 		executeScript("document.body.style.zoom='50'");
 	}
 }

@@ -1,6 +1,5 @@
 package com.jaga.hybrid.testscripts;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -11,17 +10,11 @@ import com.jaga.hybrid.helperfunctions.VerificationHelper;
 /**
  * 
  * @author Jagatheshwaran
- * @since 21/03/2018
- * @Modified 18/04/2018
+ * @since 21/3/2018
+ * @Modified 18/4/2018
  *
  */
 public class AccountCreation extends BaseClass {
-
-	WebDriver driver;
-	DropDownHelper dropdownhelper = new DropDownHelper();
-	VerificationHelper verificationhelper = new VerificationHelper();
-	
-	
 
 	@DataProvider(name = "createAccount")
 	public String[][] createAccount() {
@@ -34,7 +27,7 @@ public class AccountCreation extends BaseClass {
 			String address, String postcode, String city, String state, String Country, String phone, String password,
 			String confirmPassword) {
 		try {
-			
+
 			BaseClass.getWebElement("CreateAccContinueBtn").click();
 			BaseClass.getWebElement("genderOption").click();
 			BaseClass.getWebElement("firstName").sendKeys(firstName);
@@ -46,12 +39,12 @@ public class AccountCreation extends BaseClass {
 			BaseClass.getWebElement("postCode").sendKeys(postcode);
 			BaseClass.getWebElement("cityName").sendKeys(city);
 			BaseClass.getWebElement("stateName").sendKeys(state);
-			dropdownhelper.selectByVisibleText(BaseClass.getWebElement("countryName"), Country);
+			DropDownHelper.selectByVisibleText(BaseClass.getWebElement("countryName"), Country);
 			BaseClass.getWebElement("telePhoneNumber").sendKeys(phone);
 			BaseClass.getWebElement("password").sendKeys(password);
 			BaseClass.getWebElement("confirmationPassword").sendKeys(confirmPassword);
 			BaseClass.getWebElement("submitButton").click();
-			verificationhelper.isDisplayed(BaseClass.getWebElement("successMessage"));
+			VerificationHelper.isDisplayed(BaseClass.getWebElement("successMessage"));
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

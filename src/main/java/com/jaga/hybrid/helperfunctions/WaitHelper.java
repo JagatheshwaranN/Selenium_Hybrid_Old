@@ -16,22 +16,21 @@ import org.openqa.selenium.support.ui.WebDriverWait;
  * 
  * @author Jagatheshwaran
  * @since 16/3/2018
+ * @Modified 19/4/2018
  *
  */
 public class WaitHelper {
 
-	public WebDriver driver;
-	public WebDriverWait wait;
-	private static Logger logger = Logger.getLogger(WaitHelper.class.getName());
+	public static WebDriver driver;
+	public static WebDriverWait wait;
+	public static Logger logger = LoggerHelper.getLogger(WaitHelper.class);
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public void setImplicitWait(long timeout, TimeUnit unit) {
+	public static void setImplicitWait(long timeout, TimeUnit unit) {
 		logger.info(timeout);
 		driver.manage().timeouts().implicitlyWait(timeout, unit == null ? TimeUnit.SECONDS : unit);
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public WebDriverWait getPollingWait(int timeout, int pollingsec) {
+	public static WebDriverWait getPollingWait(int timeout, int pollingsec) {
 		wait = new WebDriverWait(driver, timeout);
 		wait.pollingEvery(pollingsec, TimeUnit.MILLISECONDS);
 		wait.ignoring(NoSuchElementException.class);
@@ -41,15 +40,13 @@ public class WaitHelper {
 		return wait;
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public void waitForElementVisible(WebElement element, int timeout, int pollingsec) {
+	public static void waitForElementVisible(WebElement element, int timeout, int pollingsec) {
 		logger.info("Web Element : " + element);
 		wait = getPollingWait(timeout, pollingsec);
 		wait.until(ExpectedConditions.visibilityOf(element));
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public void waitForElementClick(WebElement element, int timeout, int pollingsec) {
+	public static void waitForElementClick(WebElement element, int timeout, int pollingsec) {
 		logger.info("Web Element : " + element);
 		wait = getPollingWait(timeout, pollingsec);
 		wait.until(ExpectedConditions.elementToBeClickable(element));

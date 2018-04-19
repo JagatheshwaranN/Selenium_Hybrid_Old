@@ -7,13 +7,13 @@ import org.openqa.selenium.WebElement;
  * 
  * @author Jagatheshwaran
  * @since 16/3/2018
+ * @Modified 19/4/2018
  *
  */
 public class VerificationHelper {
 
-	private static Logger logger = Logger.getLogger(VerificationHelper.class.getName());
+	public static Logger logger = LoggerHelper.getLogger(VerificationHelper.class);
 
-	// Created by Jagatheshwaran on 16/3/2018
 	public static synchronized boolean verifyElementPresent(WebElement element) {
 		boolean isDisplayed = false;
 		try {
@@ -25,7 +25,6 @@ public class VerificationHelper {
 
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
 	public static synchronized boolean verifyTextEquals(WebElement element, String text) {
 		boolean flag = false;
 		try {
@@ -42,8 +41,7 @@ public class VerificationHelper {
 		}
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public String readTextValueFromElement(WebElement element) {
+	public static String readTextValueFromElement(WebElement element) {
 
 		if (element == null) {
 			logger.info("WebElement is Null...");
@@ -65,8 +63,7 @@ public class VerificationHelper {
 		return text;
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public String readValueFromInput(WebElement element) {
+	public static String readValueFromInput(WebElement element) {
 		if (element == null)
 			return null;
 		if (!isDisplayed(element))
@@ -76,8 +73,7 @@ public class VerificationHelper {
 		return value;
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public boolean isDisplayed(WebElement element) {
+	public static boolean isDisplayed(WebElement element) {
 		try {
 			element.isDisplayed();
 			logger.info("WebElement is displayed : " + element);
@@ -88,8 +84,7 @@ public class VerificationHelper {
 		}
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	protected boolean isNotDisplayed(WebElement element) {
+	protected static boolean isNotDisplayed(WebElement element) {
 		try {
 			element.isDisplayed();
 			logger.info("WebElement is displayed : " + element);
@@ -100,8 +95,7 @@ public class VerificationHelper {
 		}
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	protected String getDisplayText(WebElement element) {
+	protected static String getDisplayText(WebElement element) {
 		if (element == null)
 			return null;
 		if (!isDisplayed(element))

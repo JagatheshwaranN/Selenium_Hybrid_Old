@@ -10,39 +10,35 @@ import org.openqa.selenium.WebDriver;
  * 
  * @author Jagatheshwaran
  * @since 16/3/2018
+ * @Modified 19/4/2018
  *
  */
 public class BrowserHelper {
 
-	public WebDriver driver;
-	private static Logger logger = Logger.getLogger(BrowserHelper.class.getName());
+	public static WebDriver driver;
+	public static Logger logger = LoggerHelper.getLogger(BrowserHelper.class);
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public void goBack() {
+	public static void goBack() {
 		driver.navigate().back();
 		logger.info("Browser Navigate to Back Page");
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public void goForward() {
+	public static void goForward() {
 		driver.navigate().forward();
 		logger.info("Browser Navigate to Front Page");
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public void refresh() {
+	public static void refresh() {
 		driver.navigate().refresh();
 		logger.info("Browser Refresh the Current Page");
 	}
 
-	// Created by Jagatheshwaran on 8/3/2018
-	public Set<String> getWindowHandles() {
+	public static Set<String> getWindowHandles() {
 		logger.info("Capturing Windows Unique Alphanumeric ids");
 		return driver.getWindowHandles();
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public void SwitchToWindow(int index) {
+	public static void SwitchToWindow(int index) {
 
 		LinkedList<String> windowsid = new LinkedList<String>(getWindowHandles());
 
@@ -53,15 +49,13 @@ public class BrowserHelper {
 		logger.info("Index of Windows : " + index);
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public void switchToParentWindow() {
+	public static void switchToParentWindow() {
 		LinkedList<String> windowsid = new LinkedList<String>(getWindowHandles());
 		driver.switchTo().window(windowsid.get(0));
 		logger.info("Switch To Parent Window");
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public void switchToParentWithChildClose() {
+	public static void switchToParentWithChildClose() {
 		switchToParentWindow();
 
 		LinkedList<String> windowsid = new LinkedList<String>(getWindowHandles());
@@ -74,8 +68,7 @@ public class BrowserHelper {
 		switchToParentWindow();
 	}
 
-	// Created by Jagatheshwaran on 16/3/2018
-	public void switchToFrame(String nameOrid) {
+	public static void switchToFrame(String nameOrid) {
 		driver.switchTo().frame(nameOrid);
 		logger.info("Frame Name or Id : " + nameOrid);
 	}

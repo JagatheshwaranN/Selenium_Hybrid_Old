@@ -36,8 +36,8 @@ import com.relevantcodes.extentreports.LogStatus;
 /**
  * 
  * @author Jagatheshwaran
- * @since /3/2018
- * @Modified - 21/03/2018
+ * @since 14/3/2018
+ * @Modified 21/3/2018
  *
  */
 public class BaseClass {

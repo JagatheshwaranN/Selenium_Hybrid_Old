@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15577" started-at="2018-04-18T04:17:44Z" finished-at="2018-04-18T04:17:59Z">
+  <suite name="Default suite" duration-ms="15741" started-at="2018-04-19T03:46:26Z" finished-at="2018-04-19T03:46:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15577" started-at="2018-04-18T04:17:44Z" finished-at="2018-04-18T04:17:59Z">
+    <test name="Default test" duration-ms="15741" started-at="2018-04-19T03:46:26Z" finished-at="2018-04-19T03:46:42Z">
       <class name="com.jaga.hybrid.testscripts.SignIn">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.jaga.hybrid.testscripts.SignIn@1e4c80f]" name="init" is-config="true" duration-ms="8627" started-at="2018-04-18T09:47:44Z" finished-at="2018-04-18T09:47:52Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.jaga.hybrid.testscripts.SignIn@1083826]" name="init" is-config="true" duration-ms="9036" started-at="2018-04-19T09:16:26Z" finished-at="2018-04-19T09:16:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.jaga.hybrid.testscripts.SignIn@1e4c80f]" name="beforeMethod" is-config="true" duration-ms="11" started-at="2018-04-18T09:47:54Z" finished-at="2018-04-18T09:47:54Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.jaga.hybrid.testscripts.SignIn@1083826]" name="beforeMethod" is-config="true" duration-ms="15" started-at="2018-04-19T09:16:38Z" finished-at="2018-04-19T09:16:38Z">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:com.jaga.hybrid.testscripts.SignIn@1e4c80f]" name="signIn" duration-ms="3792" started-at="2018-04-18T09:47:54Z" data-provider="testData" finished-at="2018-04-18T09:47:58Z">
+        <test-method status="PASS" signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:com.jaga.hybrid.testscripts.SignIn@1083826]" name="signIn" duration-ms="2571" started-at="2018-04-19T09:16:38Z" data-provider="testData" finished-at="2018-04-19T09:16:40Z">
           <params>
             <param index="0">
               <value>
@@ -38,21 +38,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signIn -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jaga.hybrid.testscripts.SignIn@1e4c80f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-04-18T09:47:58Z" finished-at="2018-04-18T09:47:58Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.jaga.hybrid.testscripts.SignIn@1083826]" name="afterClass" is-config="true" duration-ms="1811" started-at="2018-04-19T09:16:40Z" finished-at="2018-04-19T09:16:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jaga.hybrid.testscripts.SignIn@1083826]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-04-19T09:16:40Z" finished-at="2018-04-19T09:16:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=signIn status=SUCCESS method=SignIn.signIn(java.lang.String, java.lang.String)[pri:0, instance:com.jaga.hybrid.testscripts.SignIn@1e4c80f] output={null}]]]>
+                <![CDATA[[TestResult name=signIn status=SUCCESS method=SignIn.signIn(java.lang.String, java.lang.String)[pri:0, instance:com.jaga.hybrid.testscripts.SignIn@1083826] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.jaga.hybrid.testscripts.SignIn@1e4c80f]" name="afterClass" is-config="true" duration-ms="1746" started-at="2018-04-18T09:47:58Z" finished-at="2018-04-18T09:47:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
       </class> <!-- com.jaga.hybrid.testscripts.SignIn -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

@@ -11,10 +11,18 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+import com.jaga.hybrid.helperfunctions.LoggerHelper;
+
+/**
+ * 
+ * @author Jagatheshwaran
+ * @since 14/3/2018
+ *
+ */
 public class ExcelReader {
 
-	public static final Logger logger = Logger.getLogger(ExcelReader.class.getName());
-	
+	public static final Logger logger = LoggerHelper.getLogger(ExcelReader.class);
+
 	public String[][] getExcelData(String excelLocation, String sheetName) {
 		try {
 			String dataset[][] = null;
@@ -67,9 +75,10 @@ public class ExcelReader {
 		return null;
 	}
 
-	/*public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}*/
+	/*
+	 * public static void main(String[] args) { // TODO Auto-generated method stub
+	 * 
+	 * }
+	 */
 
 }
