@@ -7,21 +7,21 @@ import org.openqa.selenium.ElementNotVisibleException;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.NoSuchFrameException;
 import org.openqa.selenium.StaleElementReferenceException;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import com.jaga.hybrid.commonfunctions.BaseClass;
 
 /**
  * 
  * @author Jagatheshwaran
  * @since 16/3/2018
- * @Modified 19/4/2018
+ * @Modified 20/4/2018
  *
  */
-public class WaitHelper {
+public class WaitHelper extends BaseClass {
 
-	public static WebDriver driver;
 	public static WebDriverWait wait;
 	public static Logger logger = LoggerHelper.getLogger(WaitHelper.class);
 

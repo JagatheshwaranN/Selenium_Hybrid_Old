@@ -4,18 +4,18 @@ import java.util.LinkedList;
 import java.util.Set;
 
 import org.apache.log4j.Logger;
-import org.openqa.selenium.WebDriver;
+
+import com.jaga.hybrid.commonfunctions.BaseClass;
 
 /**
  * 
  * @author Jagatheshwaran
  * @since 16/3/2018
- * @Modified 19/4/2018
+ * @Modified 20/4/2018
  *
  */
-public class BrowserHelper {
+public class BrowserHelper extends BaseClass {
 
-	public static WebDriver driver;
 	public static Logger logger = LoggerHelper.getLogger(BrowserHelper.class);
 
 	public static void goBack() {
@@ -71,6 +71,13 @@ public class BrowserHelper {
 	public static void switchToFrame(String nameOrid) {
 		driver.switchTo().frame(nameOrid);
 		logger.info("Frame Name or Id : " + nameOrid);
+	}
+
+	public static String getCurrentPageUrl() {
+		String url = null;
+		url = driver.getCurrentUrl();
+		logger.info("Current Page Url : " + url);
+		return url;
 	}
 
 }

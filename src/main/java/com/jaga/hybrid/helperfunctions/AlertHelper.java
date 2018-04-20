@@ -3,20 +3,18 @@ package com.jaga.hybrid.helperfunctions;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.NoAlertPresentException;
-import org.openqa.selenium.WebDriver;
 
-
+import com.jaga.hybrid.commonfunctions.BaseClass;
 
 /**
  * 
  * @author Jagatheshwaran
  * @since 16/3/2018
- * @Modified 19/4/2018
+ * @Modified 20/4/2018
  *
  */
-public class AlertHelper {
+public class AlertHelper extends BaseClass {
 
-	public static WebDriver driver;
 	public static Logger logger = LoggerHelper.getLogger(AlertHelper.class);
 
 	public static Alert getAlert() {

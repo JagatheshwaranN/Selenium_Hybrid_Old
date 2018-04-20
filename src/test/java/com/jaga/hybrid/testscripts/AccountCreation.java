@@ -1,20 +1,26 @@
 package com.jaga.hybrid.testscripts;
 
+import org.apache.log4j.Logger;
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.jaga.hybrid.commonfunctions.BaseClass;
+import com.jaga.hybrid.helperfunctions.BrowserHelper;
 import com.jaga.hybrid.helperfunctions.DropDownHelper;
+import com.jaga.hybrid.helperfunctions.LoggerHelper;
 import com.jaga.hybrid.helperfunctions.VerificationHelper;
 
 /**
  * 
  * @author Jagatheshwaran
  * @since 21/3/2018
- * @Modified 18/4/2018
+ * @Modified 20/4/2018
  *
  */
 public class AccountCreation extends BaseClass {
+
+	public static final Logger logger = LoggerHelper.getLogger(AccountCreation.class);
 
 	@DataProvider(name = "createAccount")
 	public String[][] createAccount() {
@@ -44,7 +50,22 @@ public class AccountCreation extends BaseClass {
 			BaseClass.getWebElement("password").sendKeys(password);
 			BaseClass.getWebElement("confirmationPassword").sendKeys(confirmPassword);
 			BaseClass.getWebElement("submitButton").click();
-			VerificationHelper.isDisplayed(BaseClass.getWebElement("successMessage"));
+
+			String ExpectedUrl = "http://www.gcrit.com/build3/create_account_success.php";
+			String ActualUrl = BrowserHelper.getCurrentPageUrl();
+
+			if (ActualUrl.contains(ExpectedUrl)) {
+				VerificationHelper.isDisplayed(BaseClass.getWebElement("successMessage"));
+				logger.info("The Account Registration is Successful");
+				Assert.assertEquals(ActualUrl, ExpectedUrl);
+
+			} else {
+				logger.info("The Account Registration is UnSuccessful");
+				VerificationHelper.isDisplayed(BaseClass.getWebElement("errorMessage"));
+				Assert.assertEquals(ActualUrl, ExpectedUrl);
+
+			}
+
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

@@ -3,14 +3,16 @@ package com.jaga.hybrid.helperfunctions;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
 
+import com.jaga.hybrid.commonfunctions.BaseClass;
+
 /**
  * 
  * @author Jagatheshwaran
  * @since 16/3/2018
- * @Modified 19/4/2018
+ * @Modified 20/4/2018
  *
  */
-public class VerificationHelper {
+public class VerificationHelper extends BaseClass{
 
 	public static Logger logger = LoggerHelper.getLogger(VerificationHelper.class);
 

@@ -6,7 +6,9 @@
       <class name="com.jaga.hybrid.testscripts.AccountCreation">
         <methods>
           <include name="afterClass"/>
+          <include name="afterMethod"/>
           <include name="init"/>
+          <include name="beforeMethod"/>
           <include name="createAccount" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.jaga.hybrid.testscripts.AccountCreation -->

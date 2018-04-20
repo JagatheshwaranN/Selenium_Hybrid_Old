@@ -253,5 +253,12 @@ public class BaseClass {
 		return excelreader.getExcelData(excelLocation, sheetName);
 
 	}
+	
+	/*public static String getCurrentPageUrl() {
+		String url = null;
+		url = driver.getCurrentUrl();
+		//logger.info("Current Page Url : " + url);
+		return url;
+	}*/
 
 }

@@ -7,14 +7,16 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
+import com.jaga.hybrid.commonfunctions.BaseClass;
+
 /**
  * 
  * @author Jagatheshwaran
  * @since 16/3/2018
- * @Modified 19/4/2018
+ * @Modified 20/4/2018
  *
  */
-public class DropDownHelper {
+public class DropDownHelper extends BaseClass{
 
 	public static Logger logger = LoggerHelper.getLogger(DropDownHelper.class);
 

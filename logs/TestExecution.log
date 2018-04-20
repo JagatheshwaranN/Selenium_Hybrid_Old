@@ -1,3 +1,20 @@
 2018-04-19 09:16:38 [INFO ] [SignIn] - [signIn] In Application Login Page
 2018-04-19 09:16:40 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (2c2140f4fcf936b16ae62a0904335ba8)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
 2018-04-19 09:16:40 [INFO ] [SignIn] - [signIn] Login to Application is Successful
+2018-04-20 08:56:32 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (d361bc60800b9399cf9044bc29364dc9)] -> name: country]Visible Text : India
+2018-04-20 09:00:28 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (eed8f9f04843ddc4effdf6fb1748501c)] -> name: country]Visible Text : India
+2018-04-20 09:02:18 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (8d1696a3f31be212e39fa2c0ea7cd744)] -> name: country]Visible Text : India
+2018-04-20 09:05:21 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (43cf812fa219ec6d42c67357917204a1)] -> name: country]Visible Text : India
+2018-04-20 09:05:23 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (f6bf754f87eed6f93af9c34a87aae0bd)] -> name: country]Visible Text : India
+2018-04-20 09:08:13 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (2035a1efc64bc257dea6b2f314b88730)] -> name: country]Visible Text : India
+2018-04-20 09:09:16 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (2baafb5974167d749802df2e9de7f832)] -> name: country]Visible Text : India
+2018-04-20 09:11:08 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (60ec7a4963cb422aba58196c40d07a08)] -> name: country]Visible Text : India
+2018-04-20 09:12:14 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (4e3e1e9bc8d220aab70c677127e6cafd)] -> name: country]Visible Text : India
+2018-04-20 09:13:34 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (e9ef377d86483537400ee23b6dd6907e)] -> name: country]Visible Text : India
+2018-04-20 09:16:44 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (edc6b66b06732cb788491450d8655f58)] -> name: country]Visible Text : India
+2018-04-20 09:16:46 [INFO ] [AccountCreation] - [createAccount] The Account Registration is UnSuccessful
+2018-04-20 09:16:46 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (edc6b66b06732cb788491450d8655f58)] -> xpath: //*[@class='messageStackError']//td]
+2018-04-20 09:21:36 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (699c593501082562bd10481954879308)] -> name: country]Visible Text : India
+2018-04-20 09:21:39 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/create_account.php
+2018-04-20 09:21:39 [INFO ] [AccountCreation] - [createAccount] The Account Registration is UnSuccessful
+2018-04-20 09:21:39 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (699c593501082562bd10481954879308)] -> xpath: //*[@class='messageStackError']//td]

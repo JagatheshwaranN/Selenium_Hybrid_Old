@@ -2,19 +2,19 @@ package com.jaga.hybrid.helperfunctions;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+
+import com.jaga.hybrid.commonfunctions.BaseClass;
 
 /**
  * 
  * @author Jagatheshwaran
  * @since 16/3/2018
- * @Modified 19/4/2018
+ * @Modified 20/4/2018
  *
  */
-public class JavaScriptHelper {
+public class JavaScriptHelper extends BaseClass {
 
-	public static WebDriver driver;
 	public static Logger logger = LoggerHelper.getLogger(JavaScriptHelper.class);
 
 	public static Object executeScript(String script) {
