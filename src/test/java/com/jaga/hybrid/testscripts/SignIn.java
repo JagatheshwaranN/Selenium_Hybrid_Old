@@ -44,8 +44,8 @@ public class SignIn extends BaseClass {
 				Assert.assertEquals(ActualUrl, ExpectedUrl);
 
 			} else {
-				logger.info("The SignIn is UnSuccessful");
 				VerificationHelper.isDisplayed(BaseClass.getWebElement("signInErrorMessage"));
+				logger.info("The SignIn is UnSuccessful");
 				Assert.assertEquals(ActualUrl, ExpectedUrl);
 
 			}

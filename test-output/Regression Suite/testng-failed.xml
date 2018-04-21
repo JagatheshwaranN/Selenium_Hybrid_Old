@@ -3,19 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
   <test name="AccountCreationAndSignIn(failed)">
     <classes>
-      <class name="com.jaga.hybrid.testscripts.SignIn">
+      <class name="com.jaga.hybrid.testscripts.AccountCreation">
         <methods>
           <include name="afterClass"/>
           <include name="afterMethod"/>
           <include name="init"/>
           <include name="beforeMethod"/>
-        </methods>
-      </class> <!-- com.jaga.hybrid.testscripts.SignIn -->
-      <class name="com.jaga.hybrid.testscripts.AccountCreation">
-        <methods>
-          <include name="afterClass"/>
-          <include name="init"/>
-          <include name="createAccount"/>
+          <include name="createAccount" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.jaga.hybrid.testscripts.AccountCreation -->
     </classes>

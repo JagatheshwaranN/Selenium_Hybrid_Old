@@ -2,16 +2,27 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19229" started-at="2018-04-20T03:51:22Z" finished-at="2018-04-20T03:51:41Z">
+  <suite name="Default suite" duration-ms="22627" started-at="2018-04-21T06:35:03Z" finished-at="2018-04-21T06:35:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19229" started-at="2018-04-20T03:51:22Z" finished-at="2018-04-20T03:51:41Z">
+    <test name="Default test" duration-ms="22627" started-at="2018-04-21T06:35:03Z" finished-at="2018-04-21T06:35:26Z">
       <class name="com.jaga.hybrid.testscripts.AccountCreation">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.jaga.hybrid.testscripts.AccountCreation@1083826]" name="init" is-config="true" duration-ms="7561" started-at="2018-04-20T09:21:22Z" finished-at="2018-04-20T09:21:30Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.jaga.hybrid.testscripts.AccountCreation@3f1134]" name="init" is-config="true" duration-ms="9603" started-at="2018-04-21T12:05:03Z" finished-at="2018-04-21T12:05:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="FAIL" signature="createAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jaga.hybrid.testscripts.AccountCreation@1083826]" name="createAccount" duration-ms="8401" started-at="2018-04-20T09:21:31Z" data-provider="createAccount" finished-at="2018-04-20T09:21:39Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.jaga.hybrid.testscripts.AccountCreation@3f1134]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2018-04-21T12:05:14Z" finished-at="2018-04-21T12:05:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jaga.hybrid.testscripts.AccountCreation.createAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="createAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jaga.hybrid.testscripts.AccountCreation@3f1134]" name="createAccount" duration-ms="8713" started-at="2018-04-21T12:05:14Z" data-provider="createAccount" finished-at="2018-04-21T12:05:23Z">
           <params>
             <param index="0">
               <value>
@@ -91,7 +102,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:116)
 	at org.testng.Assert.assertEquals(Assert.java:190)
 	at org.testng.Assert.assertEquals(Assert.java:200)
-	at com.jaga.hybrid.testscripts.AccountCreation.createAccount(AccountCreation.java:69)
+	at com.jaga.hybrid.testscripts.AccountCreation.createAccount(AccountCreation.java:65)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -123,29 +134,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAccount -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.jaga.hybrid.testscripts.AccountCreation@1083826]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-04-20T09:21:31Z" finished-at="2018-04-20T09:21:31Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jaga.hybrid.testscripts.AccountCreation@3f1134]" name="afterMethod" is-config="true" duration-ms="702" started-at="2018-04-21T12:05:23Z" finished-at="2018-04-21T12:05:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.jaga.hybrid.testscripts.AccountCreation.createAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jaga.hybrid.testscripts.AccountCreation@1083826]" name="afterMethod" is-config="true" duration-ms="465" started-at="2018-04-20T09:21:39Z" finished-at="2018-04-20T09:21:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=createAccount status=FAILURE method=AccountCreation.createAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jaga.hybrid.testscripts.AccountCreation@1083826] output={null}]]]>
+                <![CDATA[[TestResult name=createAccount status=FAILURE method=AccountCreation.createAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jaga.hybrid.testscripts.AccountCreation@3f1134] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.jaga.hybrid.testscripts.AccountCreation@1083826]" name="afterClass" is-config="true" duration-ms="1599" started-at="2018-04-20T09:21:40Z" finished-at="2018-04-20T09:21:41Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.jaga.hybrid.testscripts.AccountCreation@3f1134]" name="afterClass" is-config="true" duration-ms="2140" started-at="2018-04-21T12:05:24Z" finished-at="2018-04-21T12:05:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

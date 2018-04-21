@@ -18,3 +18,111 @@
 2018-04-20 09:21:39 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/create_account.php
 2018-04-20 09:21:39 [INFO ] [AccountCreation] - [createAccount] The Account Registration is UnSuccessful
 2018-04-20 09:21:39 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (699c593501082562bd10481954879308)] -> xpath: //*[@class='messageStackError']//td]
+2018-04-21 10:36:47 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (4a1a45f22839c7338bc355a5e58d48ea)] -> name: country]Visible Text : India
+2018-04-21 10:36:50 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/create_account.php
+2018-04-21 10:36:50 [INFO ] [AccountCreation] - [createAccount] The Account Registration is UnSuccessful
+2018-04-21 10:36:50 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (4a1a45f22839c7338bc355a5e58d48ea)] -> xpath: //*[@class='messageStackError']//td]
+2018-04-21 10:40:00 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (d72a3ee633306b1431045b51845b02ec)] -> name: country]Visible Text : India
+2018-04-21 10:40:03 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/create_account.php
+2018-04-21 10:40:03 [INFO ] [AccountCreation] - [createAccount] The Account Registration is UnSuccessful
+2018-04-21 10:40:03 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (d72a3ee633306b1431045b51845b02ec)] -> xpath: //*[@class='messageStackError']//td]
+2018-04-21 10:44:16 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (bbbc9ad3e119f16220156d3eed5ca385)] -> name: country]Visible Text : India
+2018-04-21 10:44:19 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/create_account.php
+2018-04-21 10:44:19 [INFO ] [AccountCreation] - [createAccount] The Account Registration is UnSuccessful
+2018-04-21 10:44:19 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (bbbc9ad3e119f16220156d3eed5ca385)] -> xpath: //*[@class='messageStackError']//td]
+2018-04-21 10:46:21 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (c126bfe9283bd7ac416e16293f1d2f20)] -> name: country]Visible Text : India
+2018-04-21 10:46:24 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/create_account.php
+2018-04-21 10:46:24 [INFO ] [AccountCreation] - [createAccount] The Account Registration is UnSuccessful
+2018-04-21 10:46:24 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (c126bfe9283bd7ac416e16293f1d2f20)] -> xpath: //*[@class='messageStackError']//td]
+2018-04-21 10:49:01 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (d1a4c2ca704bfa34a4f78b0461e199fb)] -> name: country]Visible Text : India
+2018-04-21 10:49:03 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/create_account.php
+2018-04-21 10:49:03 [INFO ] [AccountCreation] - [createAccount] The Account Registration is UnSuccessful
+2018-04-21 10:49:03 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (d1a4c2ca704bfa34a4f78b0461e199fb)] -> xpath: //*[@class='messageStackError']//td]
+2018-04-21 11:02:19 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (e3daf25c84455c91f3e9348876883b95)] -> name: country]Visible Text : India
+2018-04-21 11:02:21 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/create_account.php
+2018-04-21 11:02:21 [INFO ] [AccountCreation] - [createAccount] The Account Registration is UnSuccessful
+2018-04-21 11:02:21 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (e3daf25c84455c91f3e9348876883b95)] -> xpath: //*[@class='messageStackError']//td]
+2018-04-21 11:07:36 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (b75d29ef908814c62a9c013a80099662)] -> name: country]Visible Text : India
+2018-04-21 11:07:39 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/create_account.php
+2018-04-21 11:07:39 [INFO ] [AccountCreation] - [createAccount] The Account Registration is UnSuccessful
+2018-04-21 11:07:39 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (b75d29ef908814c62a9c013a80099662)] -> xpath: //*[@class='messageStackError']//td]
+2018-04-21 11:16:13 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (4c4ba010ea4e6642dce678b35366fd37)] -> name: country]Visible Text : India
+2018-04-21 11:16:16 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/create_account.php
+2018-04-21 11:16:16 [INFO ] [AccountCreation] - [createAccount] The Account Registration is UnSuccessful
+2018-04-21 11:16:16 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (4c4ba010ea4e6642dce678b35366fd37)] -> xpath: //*[@class='messageStackError']//td]
+2018-04-21 11:28:19 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (0f8c07dbf24ec30904714e80d4b28743)] -> name: country]Visible Text : India
+2018-04-21 11:28:22 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/create_account.php
+2018-04-21 11:28:22 [INFO ] [AccountCreation] - [createAccount] The Account Registration is UnSuccessful
+2018-04-21 11:28:22 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (0f8c07dbf24ec30904714e80d4b28743)] -> xpath: //*[@class='messageStackError']//td]
+2018-04-21 11:46:01 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-04-21 11:46:01 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-04-21 11:46:26 [INFO ] [BaseClass] - [getData] Data From ExcelSheet[[Ljava.lang.String;@1d8294b
+2018-04-21 11:46:27 [INFO ] [BaseClass] - [getWebElement] Objects  Fetched From Property File : CreateAccContinueBtn
+2018-04-21 11:46:29 [INFO ] [BaseClass] - [getWebElement] Objects  Fetched From Property File : genderOption
+2018-04-21 11:46:29 [INFO ] [BaseClass] - [getWebElement] Objects  Fetched From Property File : firstName
+2018-04-21 11:46:29 [INFO ] [BaseClass] - [getWebElement] Objects  Fetched From Property File : lastName
+2018-04-21 11:46:30 [INFO ] [BaseClass] - [getWebElement] Objects  Fetched From Property File : dateOfBirth
+2018-04-21 11:46:30 [INFO ] [BaseClass] - [getWebElement] Objects  Fetched From Property File : emailAddress
+2018-04-21 11:46:31 [INFO ] [BaseClass] - [getWebElement] Objects  Fetched From Property File : companyName
+2018-04-21 11:46:32 [INFO ] [BaseClass] - [getWebElement] Objects  Fetched From Property File : address
+2018-04-21 11:46:32 [INFO ] [BaseClass] - [getWebElement] Objects  Fetched From Property File : postCode
+2018-04-21 11:46:32 [INFO ] [BaseClass] - [getWebElement] Objects  Fetched From Property File : cityName
+2018-04-21 11:46:32 [INFO ] [BaseClass] - [getWebElement] Objects  Fetched From Property File : stateName
+2018-04-21 11:46:33 [INFO ] [BaseClass] - [getWebElement] Objects  Fetched From Property File : countryName
+2018-04-21 11:46:33 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (82b3d2eafa3925fd18036071423241ca)] -> name: country]Visible Text : India
+2018-04-21 11:46:33 [INFO ] [BaseClass] - [getWebElement] Objects  Fetched From Property File : telePhoneNumber
+2018-04-21 11:46:34 [INFO ] [BaseClass] - [getWebElement] Objects  Fetched From Property File : password
+2018-04-21 11:46:34 [INFO ] [BaseClass] - [getWebElement] Objects  Fetched From Property File : confirmationPassword
+2018-04-21 11:46:34 [INFO ] [BaseClass] - [getWebElement] Objects  Fetched From Property File : submitButton
+2018-04-21 11:46:37 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/create_account.php
+2018-04-21 11:46:37 [INFO ] [AccountCreation] - [createAccount] The Account Registration is UnSuccessful
+2018-04-21 11:46:37 [INFO ] [BaseClass] - [getWebElement] Objects  Fetched From Property File : errorMessage
+2018-04-21 11:46:37 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (82b3d2eafa3925fd18036071423241ca)] -> xpath: //*[@class='messageStackError']//td]
+2018-04-21 12:02:57 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-04-21 12:02:57 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-04-21 12:03:18 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 30
+2018-04-21 12:03:21 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : CreateAccContinueBtn
+2018-04-21 12:03:24 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : genderOption
+2018-04-21 12:03:24 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : firstName
+2018-04-21 12:03:24 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : lastName
+2018-04-21 12:03:25 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : dateOfBirth
+2018-04-21 12:03:25 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : emailAddress
+2018-04-21 12:03:26 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : companyName
+2018-04-21 12:03:26 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : address
+2018-04-21 12:03:27 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : postCode
+2018-04-21 12:03:27 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : cityName
+2018-04-21 12:03:27 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : stateName
+2018-04-21 12:03:27 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : countryName
+2018-04-21 12:03:28 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (3b28cc73cb69b066d0697952dfe2a920)] -> name: country]Visible Text : India
+2018-04-21 12:03:28 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : telePhoneNumber
+2018-04-21 12:03:28 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-04-21 12:03:28 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : confirmationPassword
+2018-04-21 12:03:28 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : submitButton
+2018-04-21 12:03:30 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/create_account.php
+2018-04-21 12:03:30 [INFO ] [AccountCreation] - [createAccount] The Account Registration is UnSuccessful
+2018-04-21 12:03:30 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : errorMessage
+2018-04-21 12:03:31 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (3b28cc73cb69b066d0697952dfe2a920)] -> xpath: //*[@class='messageStackError']//td]
+2018-04-21 12:05:03 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-04-21 12:05:03 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-04-21 12:05:13 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 30SECONDS
+2018-04-21 12:05:14 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : CreateAccContinueBtn
+2018-04-21 12:05:17 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : genderOption
+2018-04-21 12:05:17 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : firstName
+2018-04-21 12:05:17 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : lastName
+2018-04-21 12:05:17 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : dateOfBirth
+2018-04-21 12:05:18 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : emailAddress
+2018-04-21 12:05:19 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : companyName
+2018-04-21 12:05:19 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : address
+2018-04-21 12:05:19 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : postCode
+2018-04-21 12:05:20 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : cityName
+2018-04-21 12:05:20 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : stateName
+2018-04-21 12:05:20 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : countryName
+2018-04-21 12:05:20 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (c785f2cff3ba9e33d4b53992a35eefb4)] -> name: country]Visible Text : India
+2018-04-21 12:05:20 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : telePhoneNumber
+2018-04-21 12:05:20 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-04-21 12:05:21 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : confirmationPassword
+2018-04-21 12:05:21 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : submitButton
+2018-04-21 12:05:23 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/create_account.php
+2018-04-21 12:05:23 [INFO ] [AccountCreation] - [createAccount] The Account Registration is UnSuccessful
+2018-04-21 12:05:23 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : errorMessage
+2018-04-21 12:05:23 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (c785f2cff3ba9e33d4b53992a35eefb4)] -> xpath: //*[@class='messageStackError']//td]

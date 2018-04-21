@@ -60,8 +60,8 @@ public class AccountCreation extends BaseClass {
 				Assert.assertEquals(ActualUrl, ExpectedUrl);
 
 			} else {
-				logger.info("The Account Registration is UnSuccessful");
 				VerificationHelper.isDisplayed(BaseClass.getWebElement("errorMessage"));
+				logger.info("The Account Registration is UnSuccessful");
 				Assert.assertEquals(ActualUrl, ExpectedUrl);
 
 			}

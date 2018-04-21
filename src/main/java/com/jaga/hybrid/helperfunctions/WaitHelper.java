@@ -26,7 +26,7 @@ public class WaitHelper extends BaseClass {
 	public static Logger logger = LoggerHelper.getLogger(WaitHelper.class);
 
 	public static void setImplicitWait(long timeout, TimeUnit unit) {
-		logger.info(timeout);
+		logger.info("Impicit Wait Time Set to : " + timeout +" "+ TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(timeout, unit == null ? TimeUnit.SECONDS : unit);
 	}
 
