@@ -2,13 +2,16 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Regression Suite">
-	
 
-	<test name="AccountCreationAndSignIn">
+	<test name="AccountCreation">
 		<classes>
-		    <class name="com.jaga.hybrid.testscripts.AccountCreation" />
-			<!--<class name="com.jaga.hybrid.testscripts.SignIn" />-->
+			<class name="com.jaga.hybrid.testscripts.AccountCreation" />
 		</classes>
 	</test>
-	
-	</suite> 
+	<test name="SignIn">
+		<classes>
+			<class name="com.jaga.hybrid.testscripts.SignIn" />
+		</classes>
+	</test>
+
+</suite> 

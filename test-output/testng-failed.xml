@@ -1,17 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <test name="AccountCreation(failed)">
     <classes>
       <class name="com.jaga.hybrid.testscripts.AccountCreation">
         <methods>
           <include name="afterClass"/>
           <include name="afterMethod"/>
-          <include name="init"/>
           <include name="beforeMethod"/>
-          <include name="createAccount" invocation-numbers="0"/>
+          <include name="createAccount" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.jaga.hybrid.testscripts.AccountCreation -->
+      <class name="com.jaga.hybrid.testscripts.SignIn">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.jaga.hybrid.testscripts.SignIn -->
+    </classes>
+  </test> <!-- AccountCreation(failed) -->
+  <test name="SignIn(failed)">
+    <classes>
+      <class name="com.jaga.hybrid.testscripts.SignIn">
+        <methods>
+          <include name="signIn" invocation-numbers="1"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.jaga.hybrid.testscripts.SignIn -->
+      <class name="com.jaga.hybrid.testscripts.AccountCreation">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
         </methods>
       </class> <!-- com.jaga.hybrid.testscripts.AccountCreation -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- SignIn(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

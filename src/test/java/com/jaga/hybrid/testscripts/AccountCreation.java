@@ -15,12 +15,14 @@ import com.jaga.hybrid.helperfunctions.VerificationHelper;
  * 
  * @author Jagatheshwaran
  * @since 21/3/2018
- * @Modified 20/4/2018
+ * @Modified 23/4/2018
  *
  */
 public class AccountCreation extends BaseClass {
 
 	public static final Logger logger = LoggerHelper.getLogger(AccountCreation.class);
+
+	String ExpectedUrl = BaseClass.getTestData("accountCreationSucessUrl");
 
 	@DataProvider(name = "createAccount")
 	public String[][] createAccount() {
@@ -51,7 +53,6 @@ public class AccountCreation extends BaseClass {
 			BaseClass.getWebElement("confirmationPassword").sendKeys(confirmPassword);
 			BaseClass.getWebElement("submitButton").click();
 
-			String ExpectedUrl = "http://www.gcrit.com/build3/create_account_success.php";
 			String ActualUrl = BrowserHelper.getCurrentPageUrl();
 
 			if (ActualUrl.contains(ExpectedUrl)) {
@@ -66,8 +67,9 @@ public class AccountCreation extends BaseClass {
 
 			}
 
-		} catch (Exception e) {
-			e.printStackTrace();
+		
+		} catch (Exception exception) {
+			exception.printStackTrace();
 		}
 	}
 

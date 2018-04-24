@@ -2,6 +2,7 @@ package com.jaga.hybrid.commonfunctions;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.lang.reflect.Method;
 import java.text.SimpleDateFormat;
@@ -25,7 +26,6 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
 
 import com.jaga.hybrid.excelreader.ExcelReader;
 import com.jaga.hybrid.helperfunctions.LoggerHelper;
@@ -38,7 +38,7 @@ import com.relevantcodes.extentreports.LogStatus;
  * 
  * @author Jagatheshwaran
  * @since 14/3/2018
- * @Modified 21/4/2018
+ * @Modified 23/4/2018
  *
  */
 public class BaseClass {
@@ -48,7 +48,7 @@ public class BaseClass {
 	public static WebDriver driver;
 	public static File file;
 	public static FileInputStream fileinputstream;
-	public static Properties properties;
+	public static Properties properties = new Properties();
 	public static WebDriverWait wait;
 	public static ExtentReports extentreports;
 	public static ExtentTest extenttest;
@@ -68,19 +68,9 @@ public class BaseClass {
 				false);
 	}
 
-	@BeforeTest
-	public void init() throws IOException {
-		loadProperties();
-		logger.info("Operating Environment : " + System.getProperty("os.name"));
-		logger.info("Browser : " + properties.getProperty("browser"));
-		startBrowser(properties.getProperty("browser"));
-		driver.get(properties.getProperty("url"));
-		WaitHelper.setImplicitWait(20, TimeUnit.SECONDS);
-
-	}
-
 	@BeforeMethod
-	public void beforeMethod(Method result) {
+	public static void beforeMethod(Method result) throws IOException {
+		init();
 		extenttest = extentreports.startTest(result.getName());
 		extenttest.log(LogStatus.INFO, result.getName() + " Test Started");
 	}
@@ -88,13 +78,23 @@ public class BaseClass {
 	@AfterMethod
 	public void afterMethod(ITestResult result) throws IOException {
 		getResult(result);
+		driver.close();
 	}
 
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {
-		driver.quit();
 		extentreports.endTest(extenttest);
 		extentreports.flush();
+	}
+
+	public static void init() throws IOException {
+		loadProperties();
+		logger.info("Operating Environment : " + System.getProperty("os.name"));
+		logger.info("Browser : " + properties.getProperty("browser"));
+		startBrowser(properties.getProperty("browser"));
+		driver.get(properties.getProperty("baseUrl"));
+		WaitHelper.setImplicitWait(20, TimeUnit.SECONDS);
+
 	}
 
 	public static void loadProperties() throws IOException {
@@ -105,7 +105,7 @@ public class BaseClass {
 
 	}
 
-	public void startBrowser(String browser) {
+	public static void startBrowser(String browser) {
 		if (System.getProperty("os.name").contains("Windows")) {
 			if (properties.getProperty("browser").equalsIgnoreCase("chrome")) {
 				System.setProperty("webdriver.chrome.driver",
@@ -139,16 +139,16 @@ public class BaseClass {
 
 	public static void getResult(ITestResult result) throws IOException {
 		if (result.getStatus() == ITestResult.SUCCESS) {
-			extenttest.log(LogStatus.PASS, result.getName() + "Test is Passed");
+			extenttest.log(LogStatus.PASS, result.getName() + " Test is Passed");
 		} else if (result.getStatus() == ITestResult.SKIP) {
-			extenttest.log(LogStatus.SKIP, result.getName() + "Test is Skipped :-" + result.getThrowable());
+			extenttest.log(LogStatus.SKIP, result.getName() + " Test is Skipped :-" + result.getThrowable());
 		} else if (result.getStatus() == ITestResult.FAILURE) {
-			extenttest.log(LogStatus.FAIL, result.getName(), "Test is Failed" + result.getThrowable());
-			String screen = getSnapShot("");
+			extenttest.log(LogStatus.FAIL, result.getName(), " Test is Failed" + result.getThrowable());
+			String screen = getSnapShot(result.getName());
 			extenttest.log(LogStatus.FAIL, extenttest.addScreenCapture(screen));
 
 		} else if (result.getStatus() == ITestResult.STARTED) {
-			extenttest.log(LogStatus.INFO, result.getName() + "Test is Started");
+			extenttest.log(LogStatus.INFO, result.getName() + " Test is Started");
 		}
 	}
 
@@ -233,6 +233,37 @@ public class BaseClass {
 		String excelLocation = System.getProperty("user.dir") + excelFilePath + excelName;
 		excelreader = new ExcelReader();
 		return excelreader.getExcelData(excelLocation, sheetName);
+
+	}
+
+	public static String getTestData(String property) {
+		file = new File(System.getProperty("user.dir") + propertyFilePath);
+		try {
+			fileinputstream = new FileInputStream(file);
+
+		} catch (FileNotFoundException exception) {
+			exception.printStackTrace();
+		}
+
+		try {
+			properties.load(fileinputstream);
+
+		} catch (IOException exception) {
+			exception.printStackTrace();
+		}
+
+		String PropData = properties.getProperty(property);
+		logger.info("The Data from Property file is : " + PropData);
+
+		try {
+
+			String dataFromPropertyFile = PropData.trim();
+			return dataFromPropertyFile;
+
+		} catch (IllegalStateException exception) {
+			exception.printStackTrace();
+			return null;
+		}
 
 	}
 
