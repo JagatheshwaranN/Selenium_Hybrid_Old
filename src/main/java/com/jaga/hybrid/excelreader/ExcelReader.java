@@ -16,7 +16,7 @@ import com.jaga.hybrid.helperfunctions.LoggerHelper;
 /**
  * 
  * @author Jagatheshwaran
- * @since 14/3/2018
+ * @since 24/4/2018
  *
  */
 public class ExcelReader {
@@ -48,37 +48,32 @@ public class ExcelReader {
 						switch (cell.getCellType()) {
 						case Cell.CELL_TYPE_NUMERIC:
 							dataset[k][j++] = cell.getStringCellValue();
-							System.out.println(cell.getNumericCellValue());
+							logger.info(cell.getNumericCellValue());
 							break;
 						case Cell.CELL_TYPE_STRING:
 							dataset[k][j++] = cell.getStringCellValue();
-							System.out.println(cell.getStringCellValue());
+							logger.info(cell.getStringCellValue());
 							break;
 						case Cell.CELL_TYPE_BOOLEAN:
 							dataset[k][j++] = cell.getStringCellValue();
-							System.out.println(cell.getStringCellValue());
+							logger.info(cell.getStringCellValue());
 							break;
 						case Cell.CELL_TYPE_FORMULA:
 							dataset[k][j++] = cell.getStringCellValue();
-							System.out.println(cell.getStringCellValue());
+							logger.info(cell.getStringCellValue());
 							break;
 						}
 					}
-					System.out.println(" ");
+					logger.info(" ");
 				}
 			}
 			file.close();
 			return dataset;
-		} catch (Exception e) {
-			e.printStackTrace();
+
+		} catch (Exception exception) {
+			exception.printStackTrace();
 		}
 		return null;
 	}
-
-	/*
-	 * public static void main(String[] args) { // TODO Auto-generated method stub
-	 * 
-	 * }
-	 */
 
 }
