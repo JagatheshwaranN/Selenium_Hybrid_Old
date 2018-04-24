@@ -16,21 +16,29 @@ import com.jaga.hybrid.helperfunctions.LoggerHelper;
 /**
  * 
  * @author Jagatheshwaran
- * @since 24/4/2018
+ * @since 23/3/2018
+ * @Modified 24/4/2018
  *
  */
 public class ExcelReader {
 
 	public static final Logger logger = LoggerHelper.getLogger(ExcelReader.class);
 
+	public static FileInputStream file;
+	public static XSSFWorkbook workbook;
+	public static XSSFSheet sheet;
+	public static String dataset[][] = null;
+	public int rowCount = 0;
+	public int columnCount = 0;
+
 	public String[][] getExcelData(String excelLocation, String sheetName) {
 		try {
-			String dataset[][] = null;
-			FileInputStream file = new FileInputStream(new File(excelLocation));
-			XSSFWorkbook workbook = new XSSFWorkbook(file);
-			XSSFSheet sheet = workbook.getSheet(sheetName);
-			int rowCount = sheet.getLastRowNum() + 1;
-			int columnCount = sheet.getRow(0).getLastCellNum();
+
+			file = new FileInputStream(new File(excelLocation));
+			workbook = new XSSFWorkbook(file);
+			sheet = workbook.getSheet(sheetName);
+			rowCount = sheet.getLastRowNum() + 1;
+			columnCount = sheet.getRow(0).getLastCellNum();
 			dataset = new String[rowCount - 1][columnCount];
 			Iterator<Row> rowIterator = sheet.iterator();
 			int i = 0;
@@ -46,21 +54,22 @@ public class ExcelReader {
 						Cell cell = cellIterator.next();
 
 						switch (cell.getCellType()) {
+
 						case Cell.CELL_TYPE_NUMERIC:
 							dataset[k][j++] = cell.getStringCellValue();
-							logger.info(cell.getNumericCellValue());
+							logger.info("The Data from Excel Sheet is : " + cell.getNumericCellValue());
 							break;
 						case Cell.CELL_TYPE_STRING:
 							dataset[k][j++] = cell.getStringCellValue();
-							logger.info(cell.getStringCellValue());
+							logger.info("The Data from Excel Sheet is : " + cell.getStringCellValue());
 							break;
 						case Cell.CELL_TYPE_BOOLEAN:
 							dataset[k][j++] = cell.getStringCellValue();
-							logger.info(cell.getStringCellValue());
+							logger.info("The Data from Excel Sheet is : " + cell.getStringCellValue());
 							break;
 						case Cell.CELL_TYPE_FORMULA:
 							dataset[k][j++] = cell.getStringCellValue();
-							logger.info(cell.getStringCellValue());
+							logger.info("The Data from Excel Sheet is : " + cell.getStringCellValue());
 							break;
 						}
 					}

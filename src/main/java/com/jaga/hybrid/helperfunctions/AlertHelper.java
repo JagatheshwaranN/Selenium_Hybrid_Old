@@ -10,7 +10,7 @@ import com.jaga.hybrid.commonfunctions.BaseClass;
  * 
  * @author Jagatheshwaran
  * @since 16/3/2018
- * @Modified 20/4/2018
+ * @Modified 24/4/2018
  *
  */
 public class AlertHelper extends BaseClass {
@@ -18,24 +18,24 @@ public class AlertHelper extends BaseClass {
 	public static Logger logger = LoggerHelper.getLogger(AlertHelper.class);
 
 	public static Alert getAlert() {
-		logger.info("Getting the Alert");
 		return driver.switchTo().alert();
 
 	}
 
 	public static void acceptAlert() {
-		logger.info("Accepting the Alert");
 		getAlert().accept();
+		logger.info("Accepting the Alert");
 	}
 
 	public static void dismissAlert() {
-		logger.info("Dismissing the Alert");
 		getAlert().dismiss();
+		logger.info("Dismissing the Alert");
 	}
 
 	public static String getAlertText() {
 		logger.info("Getting the text from the Alert");
 		String text = getAlert().getText();
+		logger.info("The Alert Text is : " + text);
 		return text;
 
 	}
@@ -43,10 +43,10 @@ public class AlertHelper extends BaseClass {
 	public static boolean isAlertPresent() {
 		try {
 			driver.switchTo().alert();
-			logger.info(true);
+			logger.info("Alert is Present : " + true);
 			return true;
 		} catch (NoAlertPresentException exception) {
-			logger.info(false);
+			logger.info("Alert is Not Present : " + false);
 			return false;
 		}
 
@@ -57,6 +57,7 @@ public class AlertHelper extends BaseClass {
 			return;
 		}
 		logger.info("Alert Present - Accepting the Alert");
+		getAlertText();
 		acceptAlert();
 	}
 

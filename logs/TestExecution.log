@@ -70,3 +70,374 @@
 2018-04-24 08:48:18 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
 2018-04-24 08:48:18 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (85247d4fc4c295da433ffdcf9707e87c)] -> xpath: //*[@class='messageStackError']//td[1]]
 2018-04-24 08:48:18 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-04-24 09:28:48 [INFO ] [BaseClass] - [getTestData] The Data from Property file is : http://www.gcrit.com/build3/create_account_success.php
+2018-04-24 09:29:28 [INFO ] [BaseClass] - [getTestData] The Data from Property file is : http://www.gcrit.com/build3/create_account_success.php
+2018-04-24 09:29:33 [INFO ] [ExcelReader] - [getExcelData] Jaga
+2018-04-24 09:29:33 [INFO ] [ExcelReader] - [getExcelData] Waran
+2018-04-24 09:29:33 [INFO ] [ExcelReader] - [getExcelData] 05/04/2018
+2018-04-24 09:29:33 [INFO ] [ExcelReader] - [getExcelData] IT Company
+2018-04-24 09:29:33 [INFO ] [ExcelReader] - [getExcelData] Sholinganallur
+2018-04-24 09:29:33 [INFO ] [ExcelReader] - [getExcelData] 600119
+2018-04-24 09:29:33 [INFO ] [ExcelReader] - [getExcelData] Chennai
+2018-04-24 09:29:33 [INFO ] [ExcelReader] - [getExcelData] TamilNadu
+2018-04-24 09:29:33 [INFO ] [ExcelReader] - [getExcelData] India
+2018-04-24 09:29:33 [INFO ] [ExcelReader] - [getExcelData] 9876543212
+2018-04-24 09:29:33 [INFO ] [ExcelReader] - [getExcelData] jaga@12345
+2018-04-24 09:29:33 [INFO ] [ExcelReader] - [getExcelData] jaga@12345
+2018-04-24 09:29:33 [INFO ] [ExcelReader] - [getExcelData]  
+2018-04-24 09:29:33 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-04-24 09:29:33 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-04-24 09:29:54 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-04-24 09:29:54 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : CreateAccContinueBtn
+2018-04-24 09:29:57 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : genderOption
+2018-04-24 09:29:57 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : firstName
+2018-04-24 09:29:58 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : lastName
+2018-04-24 09:29:58 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : dateOfBirth
+2018-04-24 09:29:59 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : emailAddress
+2018-04-24 09:29:59 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : companyName
+2018-04-24 09:29:59 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : address
+2018-04-24 09:29:59 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : postCode
+2018-04-24 09:29:59 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : cityName
+2018-04-24 09:30:00 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : stateName
+2018-04-24 09:30:00 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : countryName
+2018-04-24 09:31:33 [INFO ] [BaseClass] - [getTestData] The Data from Property file is : http://www.gcrit.com/build3/create_account_success.php
+2018-04-24 09:31:33 [INFO ] [BaseClass] - [getTestData] The Data from Property file is : http://www.gcrit.com/build3/create_account_success.php
+2018-04-24 09:31:38 [INFO ] [ExcelReader] - [getExcelData] Jaga
+2018-04-24 09:31:38 [INFO ] [ExcelReader] - [getExcelData] Waran
+2018-04-24 09:31:38 [INFO ] [ExcelReader] - [getExcelData] 05/04/2018
+2018-04-24 09:31:38 [INFO ] [ExcelReader] - [getExcelData] IT Company
+2018-04-24 09:31:38 [INFO ] [ExcelReader] - [getExcelData] Jaga
+2018-04-24 09:31:38 [INFO ] [ExcelReader] - [getExcelData] Sholinganallur
+2018-04-24 09:31:38 [INFO ] [ExcelReader] - [getExcelData] Waran
+2018-04-24 09:31:38 [INFO ] [ExcelReader] - [getExcelData] 600119
+2018-04-24 09:31:38 [INFO ] [ExcelReader] - [getExcelData] 05/04/2018
+2018-04-24 09:31:38 [INFO ] [ExcelReader] - [getExcelData] Chennai
+2018-04-24 09:31:38 [INFO ] [ExcelReader] - [getExcelData] IT Company
+2018-04-24 09:31:38 [INFO ] [ExcelReader] - [getExcelData] TamilNadu
+2018-04-24 09:31:38 [INFO ] [ExcelReader] - [getExcelData] India
+2018-04-24 09:31:38 [INFO ] [ExcelReader] - [getExcelData] 9876543212
+2018-04-24 09:31:38 [INFO ] [ExcelReader] - [getExcelData] jaga@12345
+2018-04-24 09:31:38 [INFO ] [ExcelReader] - [getExcelData] jaga@12345
+2018-04-24 09:31:38 [INFO ] [ExcelReader] - [getExcelData] Sholinganallur
+2018-04-24 09:31:38 [INFO ] [ExcelReader] - [getExcelData]  
+2018-04-24 09:31:38 [INFO ] [ExcelReader] - [getExcelData] 600119
+2018-04-24 09:31:38 [INFO ] [ExcelReader] - [getExcelData] Chennai
+2018-04-24 09:31:38 [INFO ] [ExcelReader] - [getExcelData] TamilNadu
+2018-04-24 09:31:38 [INFO ] [ExcelReader] - [getExcelData] India
+2018-04-24 09:31:38 [INFO ] [ExcelReader] - [getExcelData] 9876543212
+2018-04-24 09:31:38 [INFO ] [ExcelReader] - [getExcelData] jaga@12345
+2018-04-24 09:31:38 [INFO ] [ExcelReader] - [getExcelData] jaga@12345
+2018-04-24 09:31:38 [INFO ] [ExcelReader] - [getExcelData]  
+2018-04-24 09:31:38 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-04-24 09:31:38 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-04-24 09:31:38 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-04-24 09:31:38 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-04-24 09:32:25 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-04-24 09:32:25 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-04-24 09:32:25 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : CreateAccContinueBtn
+2018-04-24 09:32:25 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : CreateAccContinueBtn
+2018-04-24 09:32:28 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : genderOption
+2018-04-24 09:32:28 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : genderOption
+2018-04-24 09:32:29 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : firstName
+2018-04-24 09:32:29 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : firstName
+2018-04-24 09:32:30 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : lastName
+2018-04-24 09:32:30 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : lastName
+2018-04-24 09:32:30 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : dateOfBirth
+2018-04-24 09:32:31 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : dateOfBirth
+2018-04-24 09:32:31 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : companyName
+2018-04-24 09:32:32 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : companyName
+2018-04-24 09:32:32 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : address
+2018-04-24 09:32:32 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : postCode
+2018-04-24 09:32:33 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : cityName
+2018-04-24 09:32:33 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : stateName
+2018-04-24 09:32:33 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : address
+2018-04-24 09:32:33 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : countryName
+2018-04-24 09:32:34 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : postCode
+2018-04-24 09:32:34 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : cityName
+2018-04-24 09:32:34 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : stateName
+2018-04-24 09:32:35 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : countryName
+2018-04-24 09:34:45 [INFO ] [BaseClass] - [getTestData] The Data from Property file is : http://www.gcrit.com/build3/create_account_success.php
+2018-04-24 09:34:47 [INFO ] [ExcelReader] - [getExcelData] Jaga
+2018-04-24 09:34:47 [INFO ] [ExcelReader] - [getExcelData] Waran
+2018-04-24 09:34:47 [INFO ] [ExcelReader] - [getExcelData] 05/04/2018
+2018-04-24 09:34:47 [INFO ] [ExcelReader] - [getExcelData] testjaga24042018@gmail.com
+2018-04-24 09:34:47 [INFO ] [ExcelReader] - [getExcelData] IT Company
+2018-04-24 09:34:47 [INFO ] [ExcelReader] - [getExcelData] Sholinganallur
+2018-04-24 09:34:47 [INFO ] [ExcelReader] - [getExcelData] 600119
+2018-04-24 09:34:47 [INFO ] [ExcelReader] - [getExcelData] Chennai
+2018-04-24 09:34:47 [INFO ] [ExcelReader] - [getExcelData] TamilNadu
+2018-04-24 09:34:47 [INFO ] [ExcelReader] - [getExcelData] India
+2018-04-24 09:34:47 [INFO ] [ExcelReader] - [getExcelData] 9876543212
+2018-04-24 09:34:47 [INFO ] [ExcelReader] - [getExcelData] jaga@12345
+2018-04-24 09:34:47 [INFO ] [ExcelReader] - [getExcelData]  
+2018-04-24 09:34:47 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-04-24 09:34:47 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-04-24 09:34:55 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-04-24 09:34:55 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : CreateAccContinueBtn
+2018-04-24 09:34:57 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : genderOption
+2018-04-24 09:34:57 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : firstName
+2018-04-24 09:34:57 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : lastName
+2018-04-24 09:34:57 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : dateOfBirth
+2018-04-24 09:34:58 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : emailAddress
+2018-04-24 09:34:58 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : companyName
+2018-04-24 09:34:59 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : address
+2018-04-24 09:34:59 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : postCode
+2018-04-24 09:34:59 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : cityName
+2018-04-24 09:34:59 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : stateName
+2018-04-24 09:34:59 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : countryName
+2018-04-24 09:35:00 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (4e9bf782b602e70cf14e622f794f3276)] -> name: country]Visible Text : India
+2018-04-24 09:35:00 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : telePhoneNumber
+2018-04-24 09:35:00 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-04-24 09:35:01 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : confirmationPassword
+2018-04-24 09:36:07 [INFO ] [BaseClass] - [getTestData] The Data from Property file is : http://www.gcrit.com/build3/create_account_success.php
+2018-04-24 09:36:08 [INFO ] [ExcelReader] - [getExcelData] Jaga
+2018-04-24 09:36:08 [INFO ] [ExcelReader] - [getExcelData] Waran
+2018-04-24 09:36:08 [INFO ] [ExcelReader] - [getExcelData] 05/04/2018
+2018-04-24 09:36:08 [INFO ] [ExcelReader] - [getExcelData] testjaga24042018@gmail.com
+2018-04-24 09:36:08 [INFO ] [ExcelReader] - [getExcelData] IT Company
+2018-04-24 09:36:08 [INFO ] [ExcelReader] - [getExcelData] Sholinganallur
+2018-04-24 09:36:08 [INFO ] [ExcelReader] - [getExcelData] 600119
+2018-04-24 09:36:08 [INFO ] [ExcelReader] - [getExcelData] Chennai
+2018-04-24 09:36:08 [INFO ] [ExcelReader] - [getExcelData] TamilNadu
+2018-04-24 09:36:08 [INFO ] [ExcelReader] - [getExcelData] India
+2018-04-24 09:36:08 [INFO ] [ExcelReader] - [getExcelData] 9876543212
+2018-04-24 09:36:08 [INFO ] [ExcelReader] - [getExcelData] jaga@12345
+2018-04-24 09:36:08 [INFO ] [ExcelReader] - [getExcelData]  
+2018-04-24 09:36:08 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-04-24 09:36:08 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-04-24 09:36:15 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-04-24 09:36:15 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : CreateAccContinueBtn
+2018-04-24 09:36:17 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : genderOption
+2018-04-24 09:36:17 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : firstName
+2018-04-24 09:36:17 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : lastName
+2018-04-24 09:36:17 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : dateOfBirth
+2018-04-24 09:36:18 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : emailAddress
+2018-04-24 09:36:18 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : companyName
+2018-04-24 09:36:18 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : address
+2018-04-24 09:36:18 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : postCode
+2018-04-24 09:36:19 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : cityName
+2018-04-24 09:36:19 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : stateName
+2018-04-24 09:36:19 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : countryName
+2018-04-24 09:36:19 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (4e4f5cdec514984d4aec06a00fd02274)] -> name: country]Visible Text : India
+2018-04-24 09:36:19 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : telePhoneNumber
+2018-04-24 09:36:20 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-04-24 09:36:20 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : confirmationPassword
+2018-04-24 09:37:23 [INFO ] [BaseClass] - [getTestData] The Data from Property file is : http://www.gcrit.com/build3/create_account_success.php
+2018-04-24 09:37:24 [INFO ] [ExcelReader] - [getExcelData] Jaga
+2018-04-24 09:37:24 [INFO ] [ExcelReader] - [getExcelData] Waran
+2018-04-24 09:37:24 [INFO ] [ExcelReader] - [getExcelData] 05/04/2018
+2018-04-24 09:37:24 [INFO ] [ExcelReader] - [getExcelData] testjaga24042018@gmail.com
+2018-04-24 09:37:24 [INFO ] [ExcelReader] - [getExcelData] IT Company
+2018-04-24 09:37:24 [INFO ] [ExcelReader] - [getExcelData] Sholinganallur
+2018-04-24 09:37:24 [INFO ] [ExcelReader] - [getExcelData] 600119
+2018-04-24 09:37:24 [INFO ] [ExcelReader] - [getExcelData] Chennai
+2018-04-24 09:37:24 [INFO ] [ExcelReader] - [getExcelData] TamilNadu
+2018-04-24 09:37:24 [INFO ] [ExcelReader] - [getExcelData] India
+2018-04-24 09:37:24 [INFO ] [ExcelReader] - [getExcelData] 9876543212
+2018-04-24 09:37:24 [INFO ] [ExcelReader] - [getExcelData] jaga@12345
+2018-04-24 09:37:24 [INFO ] [ExcelReader] - [getExcelData]  
+2018-04-24 09:37:24 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-04-24 09:37:24 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-04-24 09:37:32 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-04-24 09:37:32 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : CreateAccContinueBtn
+2018-04-24 09:37:34 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : genderOption
+2018-04-24 09:37:34 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : firstName
+2018-04-24 09:37:34 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : lastName
+2018-04-24 09:37:34 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : dateOfBirth
+2018-04-24 09:37:35 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : emailAddress
+2018-04-24 09:37:35 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : companyName
+2018-04-24 09:37:36 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : address
+2018-04-24 09:37:36 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : postCode
+2018-04-24 09:37:36 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : cityName
+2018-04-24 09:37:36 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : stateName
+2018-04-24 09:37:37 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : countryName
+2018-04-24 09:37:37 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (11bc25bf213345421c33f8bcbbe0f3b0)] -> name: country]Visible Text : India
+2018-04-24 09:37:37 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : telePhoneNumber
+2018-04-24 09:37:37 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-04-24 09:37:37 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : confirmationPassword
+2018-04-24 09:37:37 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : submitButton
+2018-04-24 09:37:43 [INFO ] [AlertHelper] - [isAlertPresent] true
+2018-04-24 09:37:43 [INFO ] [AlertHelper] - [acceptAlertIfPresent] Alert Present - Accepting the Alert
+2018-04-24 09:37:43 [INFO ] [AlertHelper] - [getAlertText] Getting the text from the Alert
+2018-04-24 09:37:43 [INFO ] [AlertHelper] - [getAlert] Getting the Alert
+2018-04-24 09:37:43 [INFO ] [AlertHelper] - [acceptAlert] Accepting the Alert
+2018-04-24 09:37:43 [INFO ] [AlertHelper] - [getAlert] Getting the Alert
+2018-04-24 09:39:34 [INFO ] [BaseClass] - [getTestData] The Data from Property file is : http://www.gcrit.com/build3/create_account_success.php
+2018-04-24 09:39:35 [INFO ] [ExcelReader] - [getExcelData] Jaga
+2018-04-24 09:39:35 [INFO ] [ExcelReader] - [getExcelData] Waran
+2018-04-24 09:39:35 [INFO ] [ExcelReader] - [getExcelData] 05/04/2018
+2018-04-24 09:39:35 [INFO ] [ExcelReader] - [getExcelData] testjaga24042018@gmail.com
+2018-04-24 09:39:35 [INFO ] [ExcelReader] - [getExcelData] IT Company
+2018-04-24 09:39:35 [INFO ] [ExcelReader] - [getExcelData] Sholinganallur
+2018-04-24 09:39:35 [INFO ] [ExcelReader] - [getExcelData] 600119
+2018-04-24 09:39:35 [INFO ] [ExcelReader] - [getExcelData] Chennai
+2018-04-24 09:39:35 [INFO ] [ExcelReader] - [getExcelData] TamilNadu
+2018-04-24 09:39:35 [INFO ] [ExcelReader] - [getExcelData] India
+2018-04-24 09:39:35 [INFO ] [ExcelReader] - [getExcelData] 9876543212
+2018-04-24 09:39:35 [INFO ] [ExcelReader] - [getExcelData] jaga@12345
+2018-04-24 09:39:35 [INFO ] [ExcelReader] - [getExcelData]  
+2018-04-24 09:39:35 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-04-24 09:39:35 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-04-24 09:39:41 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-04-24 09:39:41 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : CreateAccContinueBtn
+2018-04-24 09:39:43 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : genderOption
+2018-04-24 09:39:43 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : firstName
+2018-04-24 09:39:44 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : lastName
+2018-04-24 09:39:44 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : dateOfBirth
+2018-04-24 09:39:44 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : emailAddress
+2018-04-24 09:39:45 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : companyName
+2018-04-24 09:39:45 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : address
+2018-04-24 09:39:45 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : postCode
+2018-04-24 09:39:45 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : cityName
+2018-04-24 09:39:45 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : stateName
+2018-04-24 09:39:46 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : countryName
+2018-04-24 09:39:46 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (c8f34647813a333f0d4dfc88534a0d8c)] -> name: country]Visible Text : India
+2018-04-24 09:39:46 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : telePhoneNumber
+2018-04-24 09:39:46 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-04-24 09:39:46 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : confirmationPassword
+2018-04-24 09:39:46 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : submitButton
+2018-04-24 09:39:51 [INFO ] [AlertHelper] - [isAlertPresent] true
+2018-04-24 09:39:51 [INFO ] [AlertHelper] - [acceptAlertIfPresent] Alert Present - Accepting the Alert
+2018-04-24 09:39:51 [INFO ] [AlertHelper] - [getAlertText] Getting the text from the Alert
+2018-04-24 09:39:51 [INFO ] [AlertHelper] - [getAlert] Getting the Alert
+2018-04-24 09:39:51 [INFO ] [AlertHelper] - [getAlertText] The Alert Text is : Errors have occured during the process of your form.
+
+Please make the following corrections:
+
+* The Password Confirmation must match your Password.
+
+2018-04-24 09:39:51 [INFO ] [AlertHelper] - [acceptAlert] Accepting the Alert
+2018-04-24 09:39:51 [INFO ] [AlertHelper] - [getAlert] Getting the Alert
+2018-04-24 09:42:17 [INFO ] [BaseClass] - [getTestData] The Data from Property file is : http://www.gcrit.com/build3/create_account_success.php
+2018-04-24 09:42:18 [INFO ] [ExcelReader] - [getExcelData] Jaga
+2018-04-24 09:42:18 [INFO ] [ExcelReader] - [getExcelData] Waran
+2018-04-24 09:42:18 [INFO ] [ExcelReader] - [getExcelData] 05/04/2018
+2018-04-24 09:42:18 [INFO ] [ExcelReader] - [getExcelData] testjaga24042018@gmail.com
+2018-04-24 09:42:18 [INFO ] [ExcelReader] - [getExcelData] IT Company
+2018-04-24 09:42:18 [INFO ] [ExcelReader] - [getExcelData] Sholinganallur
+2018-04-24 09:42:18 [INFO ] [ExcelReader] - [getExcelData] 600119
+2018-04-24 09:42:18 [INFO ] [ExcelReader] - [getExcelData] Chennai
+2018-04-24 09:42:18 [INFO ] [ExcelReader] - [getExcelData] TamilNadu
+2018-04-24 09:42:18 [INFO ] [ExcelReader] - [getExcelData] India
+2018-04-24 09:42:18 [INFO ] [ExcelReader] - [getExcelData] 9876543212
+2018-04-24 09:42:18 [INFO ] [ExcelReader] - [getExcelData] jaga@12345
+2018-04-24 09:42:18 [INFO ] [ExcelReader] - [getExcelData]  
+2018-04-24 09:42:18 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-04-24 09:42:18 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-04-24 09:42:25 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-04-24 09:42:25 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : CreateAccContinueBtn
+2018-04-24 09:42:26 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : genderOption
+2018-04-24 09:42:27 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : firstName
+2018-04-24 09:42:27 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : lastName
+2018-04-24 09:42:27 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : dateOfBirth
+2018-04-24 09:42:27 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : emailAddress
+2018-04-24 09:42:28 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : companyName
+2018-04-24 09:42:28 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : address
+2018-04-24 09:42:28 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : postCode
+2018-04-24 09:42:28 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : cityName
+2018-04-24 09:42:28 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : stateName
+2018-04-24 09:42:29 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : countryName
+2018-04-24 09:42:29 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (b602729a429aaf87b28cc9a039bf3f2e)] -> name: country]Visible Text : India
+2018-04-24 09:42:29 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : telePhoneNumber
+2018-04-24 09:42:29 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-04-24 09:42:29 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : confirmationPassword
+2018-04-24 09:42:29 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : submitButton
+2018-04-24 09:42:30 [INFO ] [AlertHelper] - [isAlertPresent] true
+2018-04-24 09:42:30 [INFO ] [AlertHelper] - [acceptAlertIfPresent] Alert Present - Accepting the Alert
+2018-04-24 09:42:30 [INFO ] [AlertHelper] - [getAlertText] Getting the text from the Alert
+2018-04-24 09:42:30 [INFO ] [AlertHelper] - [getAlert] Getting the Alert
+2018-04-24 09:42:30 [INFO ] [AlertHelper] - [getAlertText] The Alert Text is : Errors have occured during the process of your form.
+
+Please make the following corrections:
+
+* The Password Confirmation must match your Password.
+
+2018-04-24 09:42:30 [INFO ] [AlertHelper] - [getAlert] Getting the Alert
+2018-04-24 09:42:30 [INFO ] [AlertHelper] - [acceptAlert] Accepting the Alert
+2018-04-24 09:49:09 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/create_account_success.php
+2018-04-24 09:49:10 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Jaga
+2018-04-24 09:49:10 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Waran
+2018-04-24 09:49:10 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 05/04/2018
+2018-04-24 09:49:10 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga24042018@gmail.com
+2018-04-24 09:49:10 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : IT Company
+2018-04-24 09:49:10 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Sholinganallur
+2018-04-24 09:49:10 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 600119
+2018-04-24 09:49:10 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Chennai
+2018-04-24 09:49:10 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : TamilNadu
+2018-04-24 09:49:10 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : India
+2018-04-24 09:49:10 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 9876543212
+2018-04-24 09:49:10 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-04-24 09:49:10 [INFO ] [ExcelReader] - [getExcelData]  
+2018-04-24 09:49:10 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-04-24 09:49:10 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-04-24 09:49:17 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-04-24 09:49:17 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : CreateAccContinueBtn
+2018-04-24 09:49:19 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : genderOption
+2018-04-24 09:49:19 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : firstName
+2018-04-24 09:49:19 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : lastName
+2018-04-24 09:49:19 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : dateOfBirth
+2018-04-24 09:49:19 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : emailAddress
+2018-04-24 09:49:20 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : companyName
+2018-04-24 09:49:20 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : address
+2018-04-24 09:49:20 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : postCode
+2018-04-24 09:49:20 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : cityName
+2018-04-24 09:49:21 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : stateName
+2018-04-24 09:49:21 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : countryName
+2018-04-24 09:49:21 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (f17b681535ee377b4dbd6b85b8a91e40)] -> name: country]Visible Text : India
+2018-04-24 09:49:21 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : telePhoneNumber
+2018-04-24 09:49:21 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-04-24 09:49:21 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : confirmationPassword
+2018-04-24 09:49:22 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : submitButton
+2018-04-24 09:49:22 [INFO ] [AlertHelper] - [isAlertPresent] Alert is Present : true
+2018-04-24 09:49:22 [INFO ] [AlertHelper] - [acceptAlertIfPresent] Alert Present - Accepting the Alert
+2018-04-24 09:49:22 [INFO ] [AlertHelper] - [getAlertText] Getting the text from the Alert
+2018-04-24 09:49:22 [INFO ] [AlertHelper] - [getAlertText] The Alert Text is : Errors have occured during the process of your form.
+
+Please make the following corrections:
+
+* The Password Confirmation must match your Password.
+
+2018-04-24 09:49:22 [INFO ] [AlertHelper] - [acceptAlert] Accepting the Alert
+2018-04-24 09:56:05 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Jaga
+2018-04-24 09:56:05 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Waran
+2018-04-24 09:56:05 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 05/04/2018
+2018-04-24 09:56:05 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga24042018@gmail.com
+2018-04-24 09:56:05 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : IT Company
+2018-04-24 09:56:05 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Sholinganallur
+2018-04-24 09:56:05 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 600119
+2018-04-24 09:56:05 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Chennai
+2018-04-24 09:56:05 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : TamilNadu
+2018-04-24 09:56:05 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : India
+2018-04-24 09:56:05 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 9876543212
+2018-04-24 09:56:05 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-04-24 09:56:05 [INFO ] [ExcelReader] - [getExcelData]  
+2018-04-24 09:56:05 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-04-24 09:56:05 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-04-24 09:56:12 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-04-24 09:56:12 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : CreateAccContinueBtn
+2018-04-24 09:56:14 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : genderOption
+2018-04-24 09:56:14 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : firstName
+2018-04-24 09:56:14 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : lastName
+2018-04-24 09:56:14 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : dateOfBirth
+2018-04-24 09:56:14 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : emailAddress
+2018-04-24 09:56:15 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : companyName
+2018-04-24 09:56:15 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : address
+2018-04-24 09:56:15 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : postCode
+2018-04-24 09:56:15 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : cityName
+2018-04-24 09:56:16 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : stateName
+2018-04-24 09:56:16 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : countryName
+2018-04-24 09:56:16 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (11436b571b23f93a09fa60117abee7c6)] -> name: country]Visible Text : India
+2018-04-24 09:56:16 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : telePhoneNumber
+2018-04-24 09:56:16 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-04-24 09:56:16 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : confirmationPassword
+2018-04-24 09:56:17 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : submitButton
+2018-04-24 09:56:17 [INFO ] [AlertHelper] - [isAlertPresent] Alert is Present : true
+2018-04-24 09:56:17 [INFO ] [AlertHelper] - [acceptAlertIfPresent] Alert Present - Accepting the Alert
+2018-04-24 09:56:17 [INFO ] [AlertHelper] - [getAlertText] Getting the text from the Alert
+2018-04-24 09:56:17 [INFO ] [AlertHelper] - [getAlertText] The Alert Text is : Errors have occured during the process of your form.
+
+Please make the following corrections:
+
+* The Password Confirmation must match your Password.
+
+2018-04-24 09:56:17 [INFO ] [AlertHelper] - [acceptAlert] Accepting the Alert

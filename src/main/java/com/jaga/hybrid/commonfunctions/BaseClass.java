@@ -253,7 +253,7 @@ public class BaseClass {
 		}
 
 		String PropData = properties.getProperty(property);
-		logger.info("The Data from Property file is : " + PropData);
+		logger.info("The Data from Property File is : " + PropData);
 
 		try {
 

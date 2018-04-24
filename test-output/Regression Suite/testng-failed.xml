@@ -1,42 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
-  <test name="AccountCreation(failed)">
+  <test name="AccountCreationHandlingAlert(failed)">
     <classes>
-      <class name="com.jaga.hybrid.testscripts.AccountCreation">
+      <class name="com.jaga.hybrid.testscripts.AccountCreationHandlingAlert">
         <methods>
+          <include name="createAccountHandlingAlert"/>
           <include name="afterClass"/>
-          <include name="afterMethod"/>
-          <include name="beforeMethod"/>
-          <include name="createAccount" invocation-numbers="1"/>
         </methods>
-      </class> <!-- com.jaga.hybrid.testscripts.AccountCreation -->
-      <class name="com.jaga.hybrid.testscripts.SignIn">
-        <methods>
-          <include name="afterClass"/>
-          <include name="afterMethod"/>
-          <include name="beforeMethod"/>
-        </methods>
-      </class> <!-- com.jaga.hybrid.testscripts.SignIn -->
+      </class> <!-- com.jaga.hybrid.testscripts.AccountCreationHandlingAlert -->
     </classes>
-  </test> <!-- AccountCreation(failed) -->
-  <test name="SignIn(failed)">
-    <classes>
-      <class name="com.jaga.hybrid.testscripts.SignIn">
-        <methods>
-          <include name="signIn" invocation-numbers="1"/>
-          <include name="afterClass"/>
-          <include name="afterMethod"/>
-          <include name="beforeMethod"/>
-        </methods>
-      </class> <!-- com.jaga.hybrid.testscripts.SignIn -->
-      <class name="com.jaga.hybrid.testscripts.AccountCreation">
-        <methods>
-          <include name="afterClass"/>
-          <include name="afterMethod"/>
-          <include name="beforeMethod"/>
-        </methods>
-      </class> <!-- com.jaga.hybrid.testscripts.AccountCreation -->
-    </classes>
-  </test> <!-- SignIn(failed) -->
+  </test> <!-- AccountCreationHandlingAlert(failed) -->
 </suite> <!-- Failed suite [Regression Suite] -->

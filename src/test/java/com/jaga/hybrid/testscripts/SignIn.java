@@ -23,13 +23,13 @@ public class SignIn extends BaseClass {
 
 	String ExpectedUrl = BaseClass.getTestData("signInSucessUrl");
 
-	@DataProvider(name = "testData")
+	@DataProvider(name = "signIn")
 	public String[][] dataSource() {
 		return getData("testData.xlsx", "SignIn");
 
 	}
 
-	@Test(dataProvider = "testData")
+	@Test(dataProvider = "signIn")
 	public void signIn(String email, String password) {
 		try {
 			logger.info("In Application Login Page");
@@ -50,8 +50,6 @@ public class SignIn extends BaseClass {
 				Assert.assertEquals(ActualUrl, ExpectedUrl);
 
 			}
-
-			
 
 		} catch (Exception exception) {
 			exception.printStackTrace();
