@@ -441,3 +441,1526 @@ Please make the following corrections:
 * The Password Confirmation must match your Password.
 
 2018-04-24 09:56:17 [INFO ] [AlertHelper] - [acceptAlert] Accepting the Alert
+2018-05-03 09:31:16 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/create_account_success.php
+2018-05-03 09:31:16 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-03 09:31:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Jaga
+2018-05-03 09:31:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Waran
+2018-05-03 09:31:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 03/05/2018
+2018-05-03 09:31:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-03 09:31:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : IT Company
+2018-05-03 09:31:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Sholinganallur
+2018-05-03 09:31:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 600119
+2018-05-03 09:31:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Chennai
+2018-05-03 09:31:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : TamilNadu
+2018-05-03 09:31:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : India
+2018-05-03 09:31:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 9876543212
+2018-05-03 09:31:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-03 09:31:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-03 09:31:19 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-03 09:31:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Jaga
+2018-05-03 09:31:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Waran
+2018-05-03 09:31:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 03/05/2018
+2018-05-03 09:31:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-03 09:31:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : IT Company
+2018-05-03 09:31:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Sholinganallur
+2018-05-03 09:31:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 600119
+2018-05-03 09:31:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Chennai
+2018-05-03 09:31:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : TamilNadu
+2018-05-03 09:31:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : India
+2018-05-03 09:31:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 9876543212
+2018-05-03 09:31:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-03 09:31:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-03 09:31:19 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-03 09:31:19 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-03 09:31:19 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-03 09:31:53 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-03 09:31:53 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : CreateAccContinueBtn
+2018-05-03 09:31:56 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : genderOption
+2018-05-03 09:31:56 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : firstName
+2018-05-03 09:31:57 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : lastName
+2018-05-03 09:31:57 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : dateOfBirth
+2018-05-03 09:31:57 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : emailAddress
+2018-05-03 09:31:58 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : companyName
+2018-05-03 09:31:58 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : address
+2018-05-03 09:31:58 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : postCode
+2018-05-03 09:31:59 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : cityName
+2018-05-03 09:31:59 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : stateName
+2018-05-03 09:31:59 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : countryName
+2018-05-03 09:32:00 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (c074933cc33ff32f5fca7b3f02156e53)] -> name: country]Visible Text : India
+2018-05-03 09:32:00 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : telePhoneNumber
+2018-05-03 09:32:00 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-03 09:32:00 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : confirmationPassword
+2018-05-03 09:32:00 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : submitButton
+2018-05-03 09:32:03 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/create_account_success.php
+2018-05-03 09:32:03 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : successMessage
+2018-05-03 09:32:03 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (c074933cc33ff32f5fca7b3f02156e53)] -> xpath: //*[@class='grid_16 push_4']/h1]
+2018-05-03 09:32:03 [INFO ] [AccountCreation] - [createAccount] The Account Registration is Successful
+2018-05-03 09:32:07 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-03 09:32:07 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-03 09:32:15 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-03 09:32:15 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : CreateAccContinueBtn
+2018-05-03 09:32:17 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : genderOption
+2018-05-03 09:32:17 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : firstName
+2018-05-03 09:32:17 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : lastName
+2018-05-03 09:32:17 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : dateOfBirth
+2018-05-03 09:32:17 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : emailAddress
+2018-05-03 09:32:18 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : companyName
+2018-05-03 09:32:18 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : address
+2018-05-03 09:32:18 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : postCode
+2018-05-03 09:32:18 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : cityName
+2018-05-03 09:32:19 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : stateName
+2018-05-03 09:32:19 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : countryName
+2018-05-03 09:32:19 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (27fa9f4f1c15cdf15d05e4323980a54d)] -> name: country]Visible Text : India
+2018-05-03 09:32:19 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : telePhoneNumber
+2018-05-03 09:32:19 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-03 09:32:19 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : confirmationPassword
+2018-05-03 09:32:20 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : submitButton
+2018-05-03 09:32:21 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/create_account.php
+2018-05-03 09:32:21 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : errorMessage
+2018-05-03 09:32:22 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (27fa9f4f1c15cdf15d05e4323980a54d)] -> xpath: //*[@class='messageStackError']//td]
+2018-05-03 09:32:22 [INFO ] [AccountCreation] - [createAccount] The Account Registration is UnSuccessful
+2018-05-03 09:32:25 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-03 09:32:25 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-03 09:32:25 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-03 09:32:25 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-03 09:32:25 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@1234
+2018-05-03 09:32:25 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-03 09:32:25 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-03 09:32:25 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-03 09:32:31 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-03 09:32:31 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-03 09:32:31 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-03 09:32:32 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-03 09:32:32 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-03 09:32:35 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-03 09:32:35 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-03 09:32:35 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (acdf0d1642ce287a608bfb285b40c322)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-03 09:32:35 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-03 09:32:36 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-03 09:32:36 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-03 09:32:43 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-03 09:32:43 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-03 09:32:43 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-03 09:32:43 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-03 09:32:44 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-03 09:32:45 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/login.php?action=process&osCsid=d2607lfd4qh5ohb27ak86m23h3
+2018-05-03 09:32:45 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
+2018-05-03 09:32:45 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (db5ef39dd03c03b9c77736e0eda1c447)] -> xpath: //*[@class='messageStackError']//td[1]]
+2018-05-03 09:32:45 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-05-03 09:48:52 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/create_account_success.php
+2018-05-03 09:48:52 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-03 09:48:57 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Jaga
+2018-05-03 09:48:57 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Waran
+2018-05-03 09:48:57 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 03/05/2018
+2018-05-03 09:48:57 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-03 09:48:57 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : IT Company
+2018-05-03 09:48:57 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Sholinganallur
+2018-05-03 09:48:57 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 600119
+2018-05-03 09:48:57 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Chennai
+2018-05-03 09:48:57 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : TamilNadu
+2018-05-03 09:48:57 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : India
+2018-05-03 09:48:57 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 9876543212
+2018-05-03 09:48:57 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-03 09:48:57 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-03 09:48:57 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-03 09:48:57 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Jaga
+2018-05-03 09:48:57 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Waran
+2018-05-03 09:48:57 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 03/05/2018
+2018-05-03 09:48:57 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-03 09:48:57 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : IT Company
+2018-05-03 09:48:57 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Sholinganallur
+2018-05-03 09:48:57 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 600119
+2018-05-03 09:48:57 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Chennai
+2018-05-03 09:48:57 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : TamilNadu
+2018-05-03 09:48:57 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : India
+2018-05-03 09:48:57 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 9876543212
+2018-05-03 09:48:57 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-03 09:48:57 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-03 09:48:57 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-03 09:48:58 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-03 09:48:58 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-03 09:49:44 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-03 09:49:44 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : CreateAccContinueBtn
+2018-05-03 09:49:47 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : genderOption
+2018-05-03 09:49:47 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : firstName
+2018-05-03 09:49:47 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : lastName
+2018-05-03 09:49:47 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : dateOfBirth
+2018-05-03 09:49:48 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : emailAddress
+2018-05-03 09:49:49 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : companyName
+2018-05-03 09:49:49 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : address
+2018-05-03 09:49:50 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : postCode
+2018-05-03 09:49:50 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : cityName
+2018-05-03 09:49:50 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : stateName
+2018-05-03 09:49:50 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : countryName
+2018-05-03 09:49:51 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (71770a5a4794dd585e6f6af4dd3f1eac)] -> name: country]Visible Text : India
+2018-05-03 09:49:51 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : telePhoneNumber
+2018-05-03 09:49:51 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-03 09:49:51 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : confirmationPassword
+2018-05-03 09:49:51 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : submitButton
+2018-05-03 09:49:54 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/create_account.php
+2018-05-03 09:49:54 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : errorMessage
+2018-05-03 09:49:54 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (71770a5a4794dd585e6f6af4dd3f1eac)] -> xpath: //*[@class='messageStackError']//td]
+2018-05-03 09:49:54 [INFO ] [AccountCreation] - [createAccount] The Account Registration is UnSuccessful
+2018-05-03 09:49:59 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-03 09:49:59 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-03 09:50:18 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-03 09:50:18 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : CreateAccContinueBtn
+2018-05-03 09:50:20 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : genderOption
+2018-05-03 09:50:20 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : firstName
+2018-05-03 09:50:20 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : lastName
+2018-05-03 09:50:21 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : dateOfBirth
+2018-05-03 09:50:21 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : emailAddress
+2018-05-03 09:50:21 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : companyName
+2018-05-03 09:50:22 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : address
+2018-05-03 09:50:22 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : postCode
+2018-05-03 09:50:22 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : cityName
+2018-05-03 09:50:22 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : stateName
+2018-05-03 09:50:23 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : countryName
+2018-05-03 09:50:23 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (3bec4f81dd1b4159690c083349b9cd30)] -> name: country]Visible Text : India
+2018-05-03 09:50:23 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : telePhoneNumber
+2018-05-03 09:50:23 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-03 09:50:23 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : confirmationPassword
+2018-05-03 09:50:23 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : submitButton
+2018-05-03 09:50:27 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/create_account.php
+2018-05-03 09:50:27 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : errorMessage
+2018-05-03 09:50:27 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (3bec4f81dd1b4159690c083349b9cd30)] -> xpath: //*[@class='messageStackError']//td]
+2018-05-03 09:50:27 [INFO ] [AccountCreation] - [createAccount] The Account Registration is UnSuccessful
+2018-05-03 09:50:31 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-03 09:50:31 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-03 09:50:31 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-03 09:50:31 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-03 09:50:31 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@1234
+2018-05-03 09:50:31 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-03 09:50:31 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-03 09:50:31 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-03 09:50:38 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-03 09:50:38 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-03 09:50:38 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-03 09:50:38 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-03 09:50:38 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-03 09:50:41 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-03 09:50:41 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-03 09:50:42 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (2badb8dece60ca9d108c90d88d3494f7)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-03 09:50:42 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-03 09:50:46 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-03 09:50:46 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-03 09:50:53 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-03 09:50:53 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-03 09:50:53 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-03 09:50:53 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-03 09:50:53 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-03 09:50:55 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/login.php?action=process&osCsid=d3j9bvh8snq655ta2bs0ksegf0
+2018-05-03 09:50:55 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
+2018-05-03 09:50:55 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (324ed1ac83228a372270bfc329a62acf)] -> xpath: //*[@class='messageStackError']//td[1]]
+2018-05-03 09:50:55 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-05-04 08:01:53 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/create_account_success.php
+2018-05-04 08:01:54 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-04 08:01:56 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Jaga
+2018-05-04 08:01:56 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Waran
+2018-05-04 08:01:56 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 03/05/2018
+2018-05-04 08:01:56 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-04 08:01:56 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : IT Company
+2018-05-04 08:01:56 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Sholinganallur
+2018-05-04 08:01:56 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 600119
+2018-05-04 08:01:56 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Chennai
+2018-05-04 08:01:56 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : TamilNadu
+2018-05-04 08:01:56 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : India
+2018-05-04 08:01:56 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 9876543212
+2018-05-04 08:01:56 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-04 08:01:56 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-04 08:01:56 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-04 08:01:56 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Jaga
+2018-05-04 08:01:56 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Waran
+2018-05-04 08:01:56 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 03/05/2018
+2018-05-04 08:01:56 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-04 08:01:56 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : IT Company
+2018-05-04 08:01:56 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Sholinganallur
+2018-05-04 08:01:56 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 600119
+2018-05-04 08:01:56 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Chennai
+2018-05-04 08:01:56 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : TamilNadu
+2018-05-04 08:01:56 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : India
+2018-05-04 08:01:56 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 9876543212
+2018-05-04 08:01:56 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-04 08:01:56 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-04 08:01:56 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-04 08:01:56 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-04 08:01:56 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-04 08:02:12 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-04 08:02:12 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : CreateAccContinueBtn
+2018-05-04 08:02:14 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : genderOption
+2018-05-04 08:02:14 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : firstName
+2018-05-04 08:02:16 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : lastName
+2018-05-04 08:02:16 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : dateOfBirth
+2018-05-04 08:02:17 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : emailAddress
+2018-05-04 08:02:17 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : companyName
+2018-05-04 08:02:18 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : address
+2018-05-04 08:02:18 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : postCode
+2018-05-04 08:02:18 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : cityName
+2018-05-04 08:02:18 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : stateName
+2018-05-04 08:02:19 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : countryName
+2018-05-04 08:02:19 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (c56a79bb43b266ab0aae40f2b0747726)] -> name: country]Visible Text : India
+2018-05-04 08:02:19 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : telePhoneNumber
+2018-05-04 08:02:19 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-04 08:02:19 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : confirmationPassword
+2018-05-04 08:02:19 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : submitButton
+2018-05-04 08:02:21 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/create_account.php
+2018-05-04 08:02:21 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : errorMessage
+2018-05-04 08:02:21 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (c56a79bb43b266ab0aae40f2b0747726)] -> xpath: //*[@class='messageStackError']//td]
+2018-05-04 08:02:21 [INFO ] [AccountCreation] - [createAccount] The Account Registration is UnSuccessful
+2018-05-04 08:02:22 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-04 08:02:22 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-04 08:02:28 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-04 08:02:28 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : CreateAccContinueBtn
+2018-05-04 08:02:30 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : genderOption
+2018-05-04 08:02:30 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : firstName
+2018-05-04 08:02:30 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : lastName
+2018-05-04 08:02:30 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : dateOfBirth
+2018-05-04 08:02:31 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : emailAddress
+2018-05-04 08:02:31 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : companyName
+2018-05-04 08:02:31 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : address
+2018-05-04 08:02:32 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : postCode
+2018-05-04 08:02:32 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : cityName
+2018-05-04 08:02:32 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : stateName
+2018-05-04 08:02:32 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : countryName
+2018-05-04 08:02:32 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (c7825cb741b0a53d47ceb5be4ba83c2e)] -> name: country]Visible Text : India
+2018-05-04 08:02:32 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : telePhoneNumber
+2018-05-04 08:02:32 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-04 08:02:33 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : confirmationPassword
+2018-05-04 08:02:33 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : submitButton
+2018-05-04 08:02:34 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/create_account.php
+2018-05-04 08:02:34 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : errorMessage
+2018-05-04 08:02:35 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (c7825cb741b0a53d47ceb5be4ba83c2e)] -> xpath: //*[@class='messageStackError']//td]
+2018-05-04 08:02:35 [INFO ] [AccountCreation] - [createAccount] The Account Registration is UnSuccessful
+2018-05-04 08:02:36 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-04 08:02:36 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-04 08:02:36 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-04 08:02:36 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-04 08:02:36 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@1234
+2018-05-04 08:02:36 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-04 08:02:36 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-04 08:02:36 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-04 08:02:43 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-04 08:02:43 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-04 08:02:43 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-04 08:02:43 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-04 08:02:43 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-04 08:02:48 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-04 08:02:48 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-04 08:02:48 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (938a43d107a0bb942413de9a3fc16c90)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-04 08:02:48 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-04 08:02:48 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-04 08:02:48 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-04 08:02:54 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-04 08:02:54 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-04 08:02:54 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-04 08:02:55 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-04 08:02:55 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-04 08:02:57 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/login.php?action=process&osCsid=m6p6b4kc6t4r2lj1fpr46930p7
+2018-05-04 08:02:57 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
+2018-05-04 08:02:57 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (e4b60e95c2bf91d1b40f74ac6145740f)] -> xpath: //*[@class='messageStackError']//td[1]]
+2018-05-04 08:02:57 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-05-04 08:17:29 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-04 08:17:31 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-04 08:17:31 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-04 08:17:31 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-04 08:17:31 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-04 08:17:31 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@1234
+2018-05-04 08:17:31 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-04 08:17:32 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-04 08:17:32 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-04 08:17:49 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-04 08:17:49 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-04 08:17:49 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-04 08:17:50 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-04 08:17:50 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-04 08:17:54 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-04 08:17:54 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-04 08:17:54 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (3df0c7793cb4153f3d2686c8c795b996)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-04 08:17:54 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-04 08:17:54 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-04 08:17:54 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-04 08:18:03 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-04 08:18:03 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-04 08:18:03 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-04 08:18:04 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-04 08:18:04 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-04 08:18:05 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/login.php?action=process&osCsid=fg9bo47u01gfcf7k7anad939b7
+2018-05-04 08:18:05 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
+2018-05-04 08:18:06 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (87699f47d2f2e8c97ec78b9338a5cad6)] -> xpath: //*[@class='messageStackError']//td[1]]
+2018-05-04 08:18:06 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-05-04 08:18:55 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/create_account_success.php
+2018-05-04 08:18:55 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-04 08:18:58 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Jaga
+2018-05-04 08:18:58 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Waran
+2018-05-04 08:18:58 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 03/05/2018
+2018-05-04 08:18:58 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-04 08:18:58 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : IT Company
+2018-05-04 08:18:58 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Sholinganallur
+2018-05-04 08:18:58 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 600119
+2018-05-04 08:18:58 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Chennai
+2018-05-04 08:18:58 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : TamilNadu
+2018-05-04 08:18:58 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : India
+2018-05-04 08:18:58 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 9876543212
+2018-05-04 08:18:58 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-04 08:18:58 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-04 08:18:58 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-04 08:18:58 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Jaga
+2018-05-04 08:18:58 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Waran
+2018-05-04 08:18:58 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 03/05/2018
+2018-05-04 08:18:58 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-04 08:18:58 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : IT Company
+2018-05-04 08:18:58 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Sholinganallur
+2018-05-04 08:18:58 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 600119
+2018-05-04 08:18:58 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Chennai
+2018-05-04 08:18:58 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : TamilNadu
+2018-05-04 08:18:58 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : India
+2018-05-04 08:18:58 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 9876543212
+2018-05-04 08:18:58 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-04 08:18:58 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-04 08:18:58 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-04 08:18:58 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-04 08:18:58 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-04 08:19:05 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-04 08:19:05 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : CreateAccContinueBtn
+2018-05-04 08:19:07 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : genderOption
+2018-05-04 08:19:07 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : firstName
+2018-05-04 08:19:08 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : lastName
+2018-05-04 08:19:08 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : dateOfBirth
+2018-05-04 08:19:08 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : emailAddress
+2018-05-04 08:19:09 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : companyName
+2018-05-04 08:19:09 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : address
+2018-05-04 08:19:09 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : postCode
+2018-05-04 08:19:09 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : cityName
+2018-05-04 08:19:09 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : stateName
+2018-05-04 08:19:10 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : countryName
+2018-05-04 08:19:10 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (32f43748928c1a33befe16c4751bb236)] -> name: country]Visible Text : India
+2018-05-04 08:19:10 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : telePhoneNumber
+2018-05-04 08:19:10 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-04 08:19:10 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : confirmationPassword
+2018-05-04 08:19:10 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : submitButton
+2018-05-04 08:19:13 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/create_account.php
+2018-05-04 08:19:13 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : errorMessage
+2018-05-04 08:19:13 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (32f43748928c1a33befe16c4751bb236)] -> xpath: //*[@class='messageStackError']//td]
+2018-05-04 08:19:13 [INFO ] [AccountCreation] - [createAccount] The Account Registration is UnSuccessful
+2018-05-04 08:19:13 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-04 08:19:13 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-04 08:19:20 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-04 08:19:20 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : CreateAccContinueBtn
+2018-05-04 08:19:22 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : genderOption
+2018-05-04 08:19:22 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : firstName
+2018-05-04 08:19:23 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : lastName
+2018-05-04 08:19:23 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : dateOfBirth
+2018-05-04 08:19:23 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : emailAddress
+2018-05-04 08:19:24 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : companyName
+2018-05-04 08:19:24 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : address
+2018-05-04 08:19:24 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : postCode
+2018-05-04 08:19:24 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : cityName
+2018-05-04 08:19:24 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : stateName
+2018-05-04 08:19:25 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : countryName
+2018-05-04 08:19:25 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (42b49c29d3b8ed92f628cbe33377ef9b)] -> name: country]Visible Text : India
+2018-05-04 08:19:25 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : telePhoneNumber
+2018-05-04 08:19:25 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-04 08:19:25 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : confirmationPassword
+2018-05-04 08:19:25 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : submitButton
+2018-05-04 08:19:27 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/create_account.php
+2018-05-04 08:19:27 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : errorMessage
+2018-05-04 08:19:27 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (42b49c29d3b8ed92f628cbe33377ef9b)] -> xpath: //*[@class='messageStackError']//td]
+2018-05-04 08:19:27 [INFO ] [AccountCreation] - [createAccount] The Account Registration is UnSuccessful
+2018-05-04 08:19:29 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-04 08:19:29 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-04 08:19:29 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-04 08:19:29 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-04 08:19:29 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@1234
+2018-05-04 08:19:29 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-04 08:19:29 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-04 08:19:29 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-04 08:19:34 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-04 08:19:34 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-04 08:19:34 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-04 08:19:35 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-04 08:19:35 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-04 08:19:38 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-04 08:19:38 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-04 08:19:38 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (08fd801e63a5fdd7e20cb6bf25707554)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-04 08:19:38 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-04 08:19:38 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-04 08:19:38 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-04 08:19:47 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-04 08:19:47 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-04 08:19:47 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-04 08:19:47 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-04 08:19:47 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-04 08:19:49 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/login.php?action=process&osCsid=rmqfeql4u5ifq3k0ktr9muhra6
+2018-05-04 08:19:49 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
+2018-05-04 08:19:49 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (9a64d8230868ef9eda2a47b1349ddbca)] -> xpath: //*[@class='messageStackError']//td[1]]
+2018-05-04 08:19:49 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-05-04 08:20:01 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/create_account_success.php
+2018-05-04 08:20:01 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-04 08:20:02 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Jaga
+2018-05-04 08:20:02 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Waran
+2018-05-04 08:20:02 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 03/05/2018
+2018-05-04 08:20:02 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-04 08:20:02 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : IT Company
+2018-05-04 08:20:02 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Sholinganallur
+2018-05-04 08:20:02 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 600119
+2018-05-04 08:20:02 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Chennai
+2018-05-04 08:20:02 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : TamilNadu
+2018-05-04 08:20:02 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : India
+2018-05-04 08:20:02 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 9876543212
+2018-05-04 08:20:02 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-04 08:20:02 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-04 08:20:02 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-04 08:20:02 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Jaga
+2018-05-04 08:20:02 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Waran
+2018-05-04 08:20:02 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 03/05/2018
+2018-05-04 08:20:02 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-04 08:20:02 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : IT Company
+2018-05-04 08:20:02 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Sholinganallur
+2018-05-04 08:20:02 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 600119
+2018-05-04 08:20:02 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Chennai
+2018-05-04 08:20:02 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : TamilNadu
+2018-05-04 08:20:02 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : India
+2018-05-04 08:20:02 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 9876543212
+2018-05-04 08:20:02 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-04 08:20:02 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-04 08:20:02 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-04 08:20:02 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-04 08:20:02 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-04 08:21:11 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/create_account_success.php
+2018-05-04 08:21:11 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-04 08:21:13 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Jaga
+2018-05-04 08:21:13 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Waran
+2018-05-04 08:21:13 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 03/05/2018
+2018-05-04 08:21:13 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-04 08:21:13 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : IT Company
+2018-05-04 08:21:13 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Sholinganallur
+2018-05-04 08:21:13 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 600119
+2018-05-04 08:21:13 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Chennai
+2018-05-04 08:21:13 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : TamilNadu
+2018-05-04 08:21:13 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : India
+2018-05-04 08:21:13 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 9876543212
+2018-05-04 08:21:13 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-04 08:21:13 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-04 08:21:13 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-04 08:21:13 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Jaga
+2018-05-04 08:21:13 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Waran
+2018-05-04 08:21:13 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 03/05/2018
+2018-05-04 08:21:13 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-04 08:21:13 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : IT Company
+2018-05-04 08:21:13 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Sholinganallur
+2018-05-04 08:21:13 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 600119
+2018-05-04 08:21:13 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Chennai
+2018-05-04 08:21:13 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : TamilNadu
+2018-05-04 08:21:13 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : India
+2018-05-04 08:21:13 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 9876543212
+2018-05-04 08:21:13 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-04 08:21:13 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-04 08:21:13 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-04 08:21:13 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-04 08:21:13 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-04 08:21:21 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-04 08:21:21 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : CreateAccContinueBtn
+2018-05-04 08:21:23 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : genderOption
+2018-05-04 08:21:23 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : firstName
+2018-05-04 08:21:24 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : lastName
+2018-05-04 08:21:24 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : dateOfBirth
+2018-05-04 08:21:24 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : emailAddress
+2018-05-04 08:21:25 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : companyName
+2018-05-04 08:21:25 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : address
+2018-05-04 08:21:25 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : postCode
+2018-05-04 08:21:25 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : cityName
+2018-05-04 08:21:25 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : stateName
+2018-05-04 08:21:26 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : countryName
+2018-05-04 08:21:26 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (fb6fc9255c23c6396b2316928a46c0dd)] -> name: country]Visible Text : India
+2018-05-04 08:21:26 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : telePhoneNumber
+2018-05-04 08:21:26 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-04 08:21:26 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : confirmationPassword
+2018-05-04 08:21:26 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : submitButton
+2018-05-04 08:21:28 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/create_account.php
+2018-05-04 08:21:28 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : errorMessage
+2018-05-04 08:21:29 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (fb6fc9255c23c6396b2316928a46c0dd)] -> xpath: //*[@class='messageStackError']//td]
+2018-05-04 08:21:29 [INFO ] [AccountCreation] - [createAccount] The Account Registration is UnSuccessful
+2018-05-04 08:21:29 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-04 08:21:29 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-04 08:21:36 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-04 08:21:37 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : CreateAccContinueBtn
+2018-05-04 08:21:38 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : genderOption
+2018-05-04 08:21:38 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : firstName
+2018-05-04 08:21:39 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : lastName
+2018-05-04 08:21:39 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : dateOfBirth
+2018-05-04 08:21:39 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : emailAddress
+2018-05-04 08:21:39 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : companyName
+2018-05-04 08:21:40 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : address
+2018-05-04 08:21:40 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : postCode
+2018-05-04 08:21:40 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : cityName
+2018-05-04 08:21:40 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : stateName
+2018-05-04 08:21:41 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : countryName
+2018-05-04 08:21:41 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (45a0895028671e3ba87f7d9ae84a9438)] -> name: country]Visible Text : India
+2018-05-04 08:21:41 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : telePhoneNumber
+2018-05-04 08:21:41 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-04 08:21:41 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : confirmationPassword
+2018-05-04 08:21:41 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : submitButton
+2018-05-04 08:21:43 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/create_account.php
+2018-05-04 08:21:43 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : errorMessage
+2018-05-04 08:21:43 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (45a0895028671e3ba87f7d9ae84a9438)] -> xpath: //*[@class='messageStackError']//td]
+2018-05-04 08:21:43 [INFO ] [AccountCreation] - [createAccount] The Account Registration is UnSuccessful
+2018-05-04 08:21:45 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-04 08:21:45 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-04 08:21:45 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-04 08:21:45 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-04 08:21:45 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@1234
+2018-05-04 08:21:45 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-04 08:21:45 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-04 08:21:45 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-04 08:21:54 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-04 08:21:54 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-04 08:21:54 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-04 08:21:54 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-04 08:21:54 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-04 08:21:56 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-04 08:21:56 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-04 08:21:57 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (046330238c568c26b57ccbfc373b6502)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-04 08:21:57 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-04 08:21:57 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-04 08:21:57 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-04 08:22:04 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-04 08:22:04 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-04 08:22:04 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-04 08:22:05 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-04 08:22:05 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-04 08:22:07 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/login.php?action=process&osCsid=1ulsho5tuoso926tn4su456d94
+2018-05-04 08:22:07 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
+2018-05-04 08:22:07 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (4e92de1de7f0629d4f9d7e074979fcc8)] -> xpath: //*[@class='messageStackError']//td[1]]
+2018-05-04 08:22:07 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-05-04 08:33:31 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-04 08:33:32 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-04 08:33:32 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-04 08:33:32 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-04 08:33:32 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-04 08:33:32 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@1234
+2018-05-04 08:33:32 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-04 08:33:32 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-04 08:33:32 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-04 08:33:51 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-04 08:33:51 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-04 08:33:51 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-04 08:33:52 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-04 08:33:52 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-04 08:33:54 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-04 08:33:54 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-04 08:33:55 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (ba973538d96908cb168821458adfa5cc)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-04 08:33:55 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-04 08:33:55 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-04 08:33:55 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-04 08:34:06 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-04 08:34:06 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-04 08:34:06 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-04 08:34:06 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-04 08:34:06 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-04 08:34:08 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/login.php?action=process&osCsid=ua6h7kslkig2plqc68seji8s07
+2018-05-04 08:34:08 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
+2018-05-04 08:34:08 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (ee992e889c48bd5952fe6754a9a63aa7)] -> xpath: //*[@class='messageStackError']//td[1]]
+2018-05-04 08:34:08 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-05-04 09:12:19 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-04 09:12:22 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-04 09:12:22 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-04 09:12:22 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-04 09:12:22 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-04 09:12:22 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@1234
+2018-05-04 09:12:22 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-04 09:12:22 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-04 09:12:22 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-04 09:12:48 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-04 09:12:48 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-04 09:12:48 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-04 09:12:49 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-04 09:12:49 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-04 09:12:51 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-04 09:12:51 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-04 09:12:51 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (4093f6118b7aeb2b6ade0ef2dfcae095)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-04 09:12:51 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-04 09:12:52 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-04 09:12:52 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-04 09:13:00 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-04 09:13:00 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-04 09:13:00 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-04 09:13:00 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-04 09:13:00 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-04 09:13:02 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/login.php?action=process&osCsid=nsmeilfkgg0gsc9icq0tgirct1
+2018-05-04 09:13:02 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
+2018-05-04 09:13:02 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (f70c5dd00a918438ee542c965ae1f815)] -> xpath: //*[@class='messageStackError']//td[1]]
+2018-05-04 09:13:02 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-05-04 09:14:37 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-04 09:14:38 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-04 09:14:38 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-04 09:14:38 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-04 09:14:38 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-04 09:14:38 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@1234
+2018-05-04 09:14:38 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-04 09:14:38 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-04 09:14:38 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-04 09:15:13 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-04 09:15:13 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-04 09:15:13 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-04 09:15:15 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-04 09:15:16 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-04 09:15:18 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-04 09:15:18 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-04 09:15:18 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (9d981685c5aea3f62bc471591d986004)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-04 09:15:18 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-04 09:15:19 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-04 09:15:19 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-04 09:15:29 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-04 09:15:29 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-04 09:15:29 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-04 09:15:29 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-04 09:15:29 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-04 09:15:31 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/login.php?action=process&osCsid=rpeq4ebrdjbk9rumg6n2f90va3
+2018-05-04 09:15:31 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
+2018-05-04 09:15:31 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (8b9403b067fc4a84532ac30b92edf1da)] -> xpath: //*[@class='messageStackError']//td[1]]
+2018-05-04 09:15:31 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-05-04 09:23:21 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-04 09:23:29 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-04 09:23:29 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-04 09:23:29 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-04 09:23:29 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-04 09:23:29 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@1234
+2018-05-04 09:23:29 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-04 09:23:29 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-04 09:23:29 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-04 09:23:49 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-04 09:23:49 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-04 09:23:49 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-04 09:23:50 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-04 09:23:50 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-04 09:23:52 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-04 09:23:52 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-04 09:23:53 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (95f3dc7c3bc74a4040d509a98e8531c4)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-04 09:23:53 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-04 09:23:53 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-04 09:23:53 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-04 09:24:02 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-04 09:24:02 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-04 09:24:02 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-04 09:24:02 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-04 09:24:02 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-04 09:24:04 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/login.php?action=process&osCsid=el7bq5av5o07gr3ek7gsvleqm5
+2018-05-04 09:24:04 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
+2018-05-04 09:24:04 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (15491fd571c5e818511f126a6e1e550d)] -> xpath: //*[@class='messageStackError']//td[1]]
+2018-05-04 09:24:04 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-05-04 09:27:46 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-04 09:27:52 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-04 09:27:52 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-04 09:27:52 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-04 09:27:52 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-04 09:27:52 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@1234
+2018-05-04 09:27:52 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-04 09:27:52 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-04 09:27:52 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-04 09:28:02 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-04 09:28:02 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-04 09:28:02 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-04 09:28:02 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-04 09:28:02 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-04 09:28:04 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-04 09:28:04 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-04 09:28:04 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (a12157f942b9141333ae8e6e05cf5ceb)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-04 09:28:04 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-04 09:28:04 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-04 09:28:04 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-04 09:28:11 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-04 09:28:11 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-04 09:28:11 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-04 09:28:11 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-04 09:28:12 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-04 09:28:13 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/login.php?action=process&osCsid=kpkfb9ri8o72felu6vug4kdtk7
+2018-05-04 09:28:13 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
+2018-05-04 09:28:13 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (ce5550728522bc612da0b73840325fbf)] -> xpath: //*[@class='messageStackError']//td[1]]
+2018-05-04 09:28:13 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-05-07 21:57:34 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-07 21:57:36 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-07 21:57:36 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-07 21:57:36 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-07 21:57:36 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-07 21:57:36 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@1234
+2018-05-07 21:57:36 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-07 21:57:36 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-07 21:57:36 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-07 21:58:03 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-07 21:58:03 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-07 21:58:03 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-07 21:58:04 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-07 21:58:04 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-07 21:58:11 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-07 21:58:11 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-07 21:58:11 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (6672d771d4fe2c586688c70306212435)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-07 21:58:11 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-07 21:58:11 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-07 21:58:11 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-07 21:58:22 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-07 21:58:22 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-07 21:58:22 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-07 21:58:22 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-07 21:58:22 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-07 21:58:24 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/login.php?action=process&osCsid=2unno60qtlt6iqd0s26ejag1m0
+2018-05-07 21:58:24 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
+2018-05-07 21:58:24 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (3e2f8d806a6a16a729c31ee00b4f19dc)] -> xpath: //*[@class='messageStackError']//td[1]]
+2018-05-07 21:58:24 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-05-07 22:01:25 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-07 22:01:26 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-07 22:01:26 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-07 22:01:26 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-07 22:01:26 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-07 22:01:26 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@1234
+2018-05-07 22:01:26 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-07 22:01:26 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-07 22:01:26 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-07 22:01:35 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-07 22:01:35 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-07 22:01:35 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-07 22:01:36 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-07 22:01:36 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-07 22:01:40 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-07 22:01:40 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-07 22:01:40 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (0c72844e13a82209e8ad0faed5e96f49)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-07 22:01:40 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-07 22:01:40 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-07 22:01:40 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-07 22:02:45 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-07 22:02:45 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-07 22:02:45 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-07 22:02:45 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-07 22:02:45 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-07 22:02:47 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/login.php?action=process
+2018-05-07 22:02:47 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
+2018-05-07 22:02:48 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (9a0e305b0299ce45e42ec555036d4611)] -> xpath: //*[@class='messageStackError']//td[1]]
+2018-05-07 22:02:48 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-05-07 22:12:57 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-07 22:13:00 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-07 22:13:00 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-07 22:13:00 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-07 22:13:00 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-07 22:13:00 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@1234
+2018-05-07 22:13:00 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-07 22:13:00 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-07 22:13:00 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-07 22:13:16 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-07 22:13:16 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-07 22:13:16 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-07 22:13:17 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-07 22:13:17 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-07 22:13:19 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-07 22:13:19 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-07 22:13:19 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (7e0403d207a6cbd1ed9f781ae6519235)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-07 22:13:19 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-07 22:13:20 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-07 22:13:20 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-07 22:13:25 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-07 22:13:25 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-07 22:13:25 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-07 22:13:25 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-07 22:13:26 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-07 22:13:28 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/login.php?action=process&osCsid=gjnbacpht12btvclfgcuhp23q0
+2018-05-07 22:13:28 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
+2018-05-07 22:13:28 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (271336c7198b14454a04f23d37edef7b)] -> xpath: //*[@class='messageStackError']//td[1]]
+2018-05-07 22:13:28 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-05-07 22:16:15 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-07 22:16:17 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-07 22:16:17 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-07 22:16:17 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-07 22:16:17 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-07 22:16:17 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@1234
+2018-05-07 22:16:17 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-07 22:16:17 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-07 22:16:17 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-07 22:16:33 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-07 22:16:33 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-07 22:16:33 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-07 22:16:34 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-07 22:16:34 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-07 22:16:36 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-07 22:16:36 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-07 22:16:37 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (bbe574b46bd5de3fe2ed534fe744170a)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-07 22:16:37 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-07 22:16:37 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-07 22:16:37 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-07 22:16:43 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-07 22:16:43 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-07 22:16:43 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-07 22:16:44 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-07 22:16:44 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-07 22:16:46 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/login.php?action=process&osCsid=59b8rn7ojfaqngdu38d43c9347
+2018-05-07 22:16:46 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
+2018-05-07 22:16:46 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (8fdacd4d7c47d35fb370a5830dc99696)] -> xpath: //*[@class='messageStackError']//td[1]]
+2018-05-07 22:16:46 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-05-07 22:25:04 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-07 22:25:05 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-07 22:25:05 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-07 22:25:05 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-07 22:25:05 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-07 22:25:05 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@1234
+2018-05-07 22:25:05 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-07 22:25:05 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-07 22:25:05 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-07 22:25:15 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-07 22:25:15 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-07 22:25:15 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-07 22:25:15 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-07 22:25:15 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-07 22:25:19 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-07 22:25:19 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-07 22:25:19 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (bef7c87159f8374a98e8e1a2da5b6b05)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-07 22:25:19 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-07 22:25:19 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-07 22:25:19 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-07 22:25:25 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-07 22:25:25 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-07 22:25:25 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-07 22:25:26 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-07 22:25:26 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-07 22:25:27 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/login.php?action=process&osCsid=2jmheh0tqdd9opihjiiv7dasj7
+2018-05-07 22:25:27 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
+2018-05-07 22:25:27 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (d666b4b0c8e3b943df51e03134a833ba)] -> xpath: //*[@class='messageStackError']//td[1]]
+2018-05-07 22:25:27 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-05-07 22:31:21 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-07 22:31:22 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-07 22:31:22 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-07 22:31:22 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-07 22:31:22 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-07 22:31:22 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@1234
+2018-05-07 22:31:22 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-07 22:31:22 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-07 22:31:22 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-07 22:31:41 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-07 22:31:41 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-07 22:31:41 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-07 22:31:42 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-07 22:31:42 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-07 22:31:51 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-07 22:31:51 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-07 22:31:51 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (8f15559124933791db134f414289569c)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-07 22:31:51 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-07 22:31:51 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-07 22:31:51 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-07 22:31:59 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-07 22:31:59 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-07 22:31:59 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-07 22:31:59 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-07 22:32:00 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-07 22:32:02 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/login.php?action=process&osCsid=s8n3mn55hu0lqqjldv1ahbio14
+2018-05-07 22:32:02 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
+2018-05-07 22:32:02 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (468d8ff98863ffb5e9c7f518c423bc0a)] -> xpath: //*[@class='messageStackError']//td[1]]
+2018-05-07 22:32:02 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-05-07 22:43:17 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-07 22:43:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-07 22:43:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-07 22:43:19 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-07 22:43:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-07 22:43:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@1234
+2018-05-07 22:43:19 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-07 22:43:19 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-07 22:43:19 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-07 22:43:30 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-07 22:43:30 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-07 22:43:30 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-07 22:43:30 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-07 22:43:30 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-07 22:43:38 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-07 22:43:38 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-07 22:43:39 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (90034d4ead294241097e0b417643db25)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-07 22:43:39 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-07 22:43:40 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-07 22:43:40 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-07 22:43:51 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-07 22:43:51 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-07 22:43:51 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-07 22:43:52 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-07 22:43:52 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-07 22:43:55 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/login.php?action=process&osCsid=tvuvh84r3er4dmbj0hqp3243o1
+2018-05-07 22:43:55 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
+2018-05-07 22:43:55 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (5238750bb6eb9c006dd601f05d014279)] -> xpath: //*[@class='messageStackError']//td[1]]
+2018-05-07 22:43:55 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-05-08 09:05:34 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-08 09:05:36 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-08 09:05:36 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-08 09:05:36 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-08 09:05:36 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-08 09:05:36 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@1234
+2018-05-08 09:05:36 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-08 09:05:36 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-08 09:05:36 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-08 09:05:52 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-08 09:05:52 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-08 09:05:52 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-08 09:05:54 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-08 09:05:54 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-08 09:05:56 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-08 09:05:56 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-08 09:05:56 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (bfe67ce6f6a5e2b86d977ef2c35f47d2)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-08 09:05:56 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-08 09:05:57 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-08 09:05:57 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-08 09:06:03 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-08 09:06:03 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-08 09:06:03 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-08 09:06:03 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-08 09:06:03 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-08 09:06:05 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/login.php?action=process&osCsid=o3q08fcthk3kv9cr9kd4egfnl6
+2018-05-08 09:06:05 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
+2018-05-08 09:06:06 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (b446b0a6597321fe597b16e13f023df4)] -> xpath: //*[@class='messageStackError']//td[1]]
+2018-05-08 09:06:06 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-05-08 09:14:35 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-08 09:14:36 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-08 09:14:36 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-08 09:14:36 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-08 09:14:36 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-08 09:14:36 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@1234
+2018-05-08 09:14:36 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-08 09:14:36 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-08 09:14:36 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-08 09:14:54 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-08 09:14:54 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-08 09:14:54 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-08 09:14:55 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-08 09:14:55 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-08 09:14:57 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-08 09:14:57 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-08 09:14:57 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (e9b733d9ad33dbe510a2606b78d541e3)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-08 09:14:57 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-08 09:14:57 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-08 09:14:57 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-08 09:15:08 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-08 09:15:08 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-08 09:15:08 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-08 09:15:08 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-08 09:15:08 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-08 09:15:10 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/login.php?action=process&osCsid=l50iipfp3rngdorptchcc18770
+2018-05-08 09:15:10 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
+2018-05-08 09:15:10 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (c6e347fa4e5ef218805ccf6f4d1bad7b)] -> xpath: //*[@class='messageStackError']//td[1]]
+2018-05-08 09:15:10 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-05-08 09:22:59 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-08 09:23:00 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-08 09:23:00 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-08 09:23:00 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-08 09:23:00 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-08 09:23:00 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@1234
+2018-05-08 09:23:00 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-08 09:23:00 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-08 09:23:00 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-08 09:23:14 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-08 09:23:14 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-08 09:23:14 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-08 09:23:15 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-08 09:23:16 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-08 09:23:18 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-08 09:23:18 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-08 09:23:18 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (d111a84748d05e7d80227141c3c1cd51)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-08 09:23:18 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-08 09:23:19 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-08 09:23:19 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-08 09:23:24 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-08 09:23:24 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-08 09:23:24 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-08 09:23:25 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-08 09:23:25 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-08 09:23:27 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/login.php?action=process&osCsid=sk4gc627eqf1pm34alc43k7le3
+2018-05-08 09:23:27 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
+2018-05-08 09:23:27 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (631f6e0aa434a6fb031df165923cebfd)] -> xpath: //*[@class='messageStackError']//td[1]]
+2018-05-08 09:23:27 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-05-08 09:26:16 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-08 09:26:17 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-08 09:26:17 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-08 09:26:17 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-08 09:26:17 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-08 09:26:17 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@1234
+2018-05-08 09:26:17 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-08 09:26:17 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-08 09:26:17 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-08 09:26:27 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-08 09:26:27 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-08 09:26:27 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-08 09:26:28 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-08 09:26:28 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-08 09:26:31 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-08 09:26:31 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-08 09:26:31 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (d9936c039e85ad784fc6aa953fc5a7fd)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-08 09:26:31 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-08 09:26:32 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-08 09:26:32 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-08 09:26:37 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-08 09:26:37 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-08 09:26:37 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-08 09:26:37 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-08 09:26:37 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-08 09:26:39 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/login.php?action=process&osCsid=fal5ton3dj2k71ovi2ukvmefr7
+2018-05-08 09:26:39 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
+2018-05-08 09:26:39 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (1942eb89de0530162deff0be9f332ae0)] -> xpath: //*[@class='messageStackError']//td[1]]
+2018-05-08 09:26:39 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-05-08 09:35:23 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-08 09:35:24 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-08 09:35:24 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-08 09:35:24 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-08 09:35:24 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-08 09:35:24 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@1234
+2018-05-08 09:35:24 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-08 09:35:24 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-08 09:35:24 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-08 09:35:47 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-08 09:35:47 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-08 09:35:47 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-08 09:35:48 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-08 09:35:48 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-08 09:35:51 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-08 09:35:51 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-08 09:35:52 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (8fb74eea56f59d6e2587806573969e20)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-08 09:35:52 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-08 09:35:52 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-08 09:35:52 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-08 09:36:03 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-08 09:36:04 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-08 09:36:04 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-08 09:36:04 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-08 09:36:04 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-08 09:36:06 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/login.php?action=process&osCsid=fmuud9srle424g9rh3744qt3e2
+2018-05-08 09:36:06 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
+2018-05-08 09:36:06 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (957317a1d2f87a14687fa06c4f81540c)] -> xpath: //*[@class='messageStackError']//td[1]]
+2018-05-08 09:36:06 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-05-08 09:41:43 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-08 09:41:44 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-08 09:41:44 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-08 09:41:44 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-08 09:41:44 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-08 09:41:44 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@1234
+2018-05-08 09:41:44 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-08 09:41:44 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-08 09:41:44 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-08 09:42:05 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-08 09:42:05 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-08 09:42:05 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-08 09:42:05 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-08 09:42:06 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-08 09:42:08 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-08 09:42:08 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-08 09:42:09 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (e630cf23e01c685e892b1ce5d0842f00)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-08 09:42:09 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-08 09:42:09 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-08 09:42:09 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-08 09:42:19 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-08 09:42:19 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-08 09:42:19 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-08 09:42:20 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-08 09:42:20 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-08 09:42:21 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/login.php?action=process&osCsid=49jroom0kp4lmb6p0aiupkao41
+2018-05-08 09:42:21 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
+2018-05-08 09:42:21 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (9fa98b1d24abdf25f1ef79d721de3156)] -> xpath: //*[@class='messageStackError']//td[1]]
+2018-05-08 09:42:21 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-05-08 09:44:02 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-08 09:44:03 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-08 09:44:03 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-08 09:44:03 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-08 09:44:03 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-08 09:44:03 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@1234
+2018-05-08 09:44:03 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-08 09:44:03 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-08 09:44:03 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-08 09:44:17 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-08 09:44:17 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-08 09:44:17 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-08 09:44:19 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-08 09:44:19 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-08 09:44:22 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-08 09:44:22 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-08 09:44:22 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (13b610b931d36a207f55ba37c7dfc9ef)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-08 09:44:22 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-08 09:44:22 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-08 09:44:22 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-08 09:44:28 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-08 09:44:28 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-08 09:44:28 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-08 09:44:28 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-08 09:44:28 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-08 09:44:30 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/login.php?action=process&osCsid=mp9bni4bqig667v3q9gh3oc0l0
+2018-05-08 09:44:30 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
+2018-05-08 09:44:30 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (13cabc82c9b957cdc016ee5a6824095c)] -> xpath: //*[@class='messageStackError']//td[1]]
+2018-05-08 09:44:30 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-05-08 09:46:48 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-08 09:46:50 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-08 09:46:50 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-08 09:46:50 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-08 09:46:50 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-08 09:46:50 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@1234
+2018-05-08 09:46:50 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-08 09:46:50 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-08 09:46:50 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-08 09:46:58 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-08 09:46:58 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-08 09:46:58 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-08 09:46:59 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-08 09:46:59 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-08 09:47:02 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-08 09:47:02 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-08 09:47:02 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (7ba0de6f36455aed2d1c1c3812a744c0)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-08 09:47:02 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-08 09:47:06 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-08 09:47:06 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-08 09:47:15 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-08 09:47:15 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-08 09:47:15 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-08 09:47:16 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-08 09:47:16 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-08 09:47:18 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/login.php?action=process&osCsid=ku704r81jtvs41sum9bbc2fvs6
+2018-05-08 09:47:18 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
+2018-05-08 09:47:18 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (9997c07fbebc0a93905dc630caa92dca)] -> xpath: //*[@class='messageStackError']//td[1]]
+2018-05-08 09:47:18 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-05-08 09:52:50 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-08 09:52:52 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-08 09:52:52 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-08 09:52:52 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-08 09:52:52 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga03052018@gmail.com
+2018-05-08 09:52:52 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@1234
+2018-05-08 09:52:52 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-08 09:52:52 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-08 09:52:52 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-08 09:53:14 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-08 09:53:14 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-08 09:53:14 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-08 09:53:15 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-08 09:53:15 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-08 09:53:17 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-08 09:53:17 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-08 09:53:17 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (fb003c306a48b85aa5bc150eddb986e7)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-08 09:53:17 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-08 09:53:18 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-08 09:53:18 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-08 09:53:24 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-08 09:53:24 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-08 09:53:24 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-08 09:53:25 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-08 09:53:25 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-08 09:53:27 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/login.php?action=process&osCsid=1m5t0isjgliu98ecgn7etq4rv0
+2018-05-08 09:53:27 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
+2018-05-08 09:53:27 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (4d38d57ab7310e0137e1d177de41c299)] -> xpath: //*[@class='messageStackError']//td[1]]
+2018-05-08 09:53:27 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-05-09 08:32:13 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-09 08:32:15 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga24042018@gmail.com
+2018-05-09 08:32:15 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-09 08:32:15 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-09 08:32:15 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga24042018@gmail.com
+2018-05-09 08:32:15 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@1234
+2018-05-09 08:32:15 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-09 08:32:15 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-09 08:32:15 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-09 08:32:34 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-09 08:32:34 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-09 08:32:34 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-09 08:32:35 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-09 08:32:35 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-09 08:32:38 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-09 08:32:38 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-09 08:32:38 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (ab576383839a81656dca35c021fed428)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-09 08:32:38 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-09 08:32:39 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-09 08:32:39 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-09 08:32:47 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-09 08:32:47 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-09 08:32:47 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-09 08:32:48 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-09 08:32:48 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-09 08:32:50 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/login.php?action=process&osCsid=1ocg6f4me3kh64aga6lvrtiff4
+2018-05-09 08:32:50 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
+2018-05-09 08:32:50 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (694e3dccd6f59be870436beece81aae9)] -> xpath: //*[@class='messageStackError']//td[1]]
+2018-05-09 08:32:50 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-05-09 08:35:42 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/create_account_success.php
+2018-05-09 08:35:42 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-09 08:35:43 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Jaga
+2018-05-09 08:35:43 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Waran
+2018-05-09 08:35:43 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 05/04/2018
+2018-05-09 08:35:43 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga09052018@gmail.com
+2018-05-09 08:35:43 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : IT Company
+2018-05-09 08:35:43 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Sholinganallur
+2018-05-09 08:35:43 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 600119
+2018-05-09 08:35:43 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Chennai
+2018-05-09 08:35:43 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : TamilNadu
+2018-05-09 08:35:43 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : India
+2018-05-09 08:35:43 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 9876543212
+2018-05-09 08:35:43 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-09 08:35:43 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-09 08:35:43 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-09 08:35:43 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Jaga
+2018-05-09 08:35:43 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Waran
+2018-05-09 08:35:43 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 05/04/2018
+2018-05-09 08:35:43 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga09052018@gmail.com
+2018-05-09 08:35:43 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : IT Company
+2018-05-09 08:35:43 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Sholinganallur
+2018-05-09 08:35:43 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 600119
+2018-05-09 08:35:43 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Chennai
+2018-05-09 08:35:43 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : TamilNadu
+2018-05-09 08:35:43 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : India
+2018-05-09 08:35:43 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 9876543212
+2018-05-09 08:35:43 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-09 08:35:43 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-09 08:35:43 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-09 08:35:43 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-09 08:35:43 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-09 08:35:51 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-09 08:35:51 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : CreateAccContinueBtn
+2018-05-09 08:35:52 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : genderOption
+2018-05-09 08:35:53 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : firstName
+2018-05-09 08:35:53 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : lastName
+2018-05-09 08:35:53 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : dateOfBirth
+2018-05-09 08:35:54 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : emailAddress
+2018-05-09 08:35:54 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : companyName
+2018-05-09 08:35:54 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : address
+2018-05-09 08:35:55 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : postCode
+2018-05-09 08:35:55 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : cityName
+2018-05-09 08:35:55 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : stateName
+2018-05-09 08:35:55 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : countryName
+2018-05-09 08:35:56 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (538a8f4eb7edf7a31892698d1b34238e)] -> name: country]Visible Text : India
+2018-05-09 08:35:56 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : telePhoneNumber
+2018-05-09 08:35:56 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-09 08:35:56 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : confirmationPassword
+2018-05-09 08:35:56 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : submitButton
+2018-05-09 08:35:58 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/create_account_success.php
+2018-05-09 08:35:58 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : successMessage
+2018-05-09 08:35:58 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (538a8f4eb7edf7a31892698d1b34238e)] -> xpath: //*[@class='grid_16 push_4']/h1]
+2018-05-09 08:35:58 [INFO ] [AccountCreation] - [createAccount] The Account Registration is Successful
+2018-05-09 08:36:02 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-09 08:36:02 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-09 08:36:07 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-09 08:36:07 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : CreateAccContinueBtn
+2018-05-09 08:36:09 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : genderOption
+2018-05-09 08:36:09 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : firstName
+2018-05-09 08:36:09 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : lastName
+2018-05-09 08:36:09 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : dateOfBirth
+2018-05-09 08:36:10 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : emailAddress
+2018-05-09 08:36:10 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : companyName
+2018-05-09 08:36:10 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : address
+2018-05-09 08:36:11 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : postCode
+2018-05-09 08:36:11 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : cityName
+2018-05-09 08:36:11 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : stateName
+2018-05-09 08:36:11 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : countryName
+2018-05-09 08:36:11 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (1f63c97000a1852b49f14cda4e7a10a3)] -> name: country]Visible Text : India
+2018-05-09 08:36:11 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : telePhoneNumber
+2018-05-09 08:36:12 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-09 08:36:12 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : confirmationPassword
+2018-05-09 08:36:12 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : submitButton
+2018-05-09 08:36:14 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/create_account.php
+2018-05-09 08:36:14 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : errorMessage
+2018-05-09 08:36:14 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (1f63c97000a1852b49f14cda4e7a10a3)] -> xpath: //*[@class='messageStackError']//td]
+2018-05-09 08:36:14 [INFO ] [AccountCreation] - [createAccount] The Account Registration is UnSuccessful
+2018-05-09 08:36:16 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga24042018@gmail.com
+2018-05-09 08:36:16 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-09 08:36:16 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-09 08:36:16 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga24042018@gmail.com
+2018-05-09 08:36:16 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@1234
+2018-05-09 08:36:16 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-09 08:36:16 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-09 08:36:16 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-09 08:36:21 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-09 08:36:21 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-09 08:36:21 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-09 08:36:22 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-09 08:36:22 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-09 08:36:24 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-09 08:36:24 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-09 08:36:24 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (5c5e19f7669d0c3c4a149082b90cb613)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-09 08:36:24 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-09 08:36:25 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-09 08:36:25 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-09 08:36:30 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-09 08:36:30 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-09 08:36:30 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-09 08:36:30 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-09 08:36:30 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-09 08:36:32 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/login.php?action=process&osCsid=bqd0s02be0qo1kguiqkucsn6h3
+2018-05-09 08:36:32 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
+2018-05-09 08:36:32 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (11fa32600d3e5e738e05a2d012db594e)] -> xpath: //*[@class='messageStackError']//td[1]]
+2018-05-09 08:36:32 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-05-09 08:39:28 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-09 08:39:29 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga24042018@gmail.com
+2018-05-09 08:39:29 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-09 08:39:29 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-09 08:39:29 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga24042018@gmail.com
+2018-05-09 08:39:29 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@1234
+2018-05-09 08:39:29 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-09 08:39:29 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-09 08:39:29 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-09 08:39:35 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-09 08:39:35 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-09 08:39:35 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-09 08:39:35 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-09 08:39:36 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-09 08:39:38 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-09 08:39:38 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-09 08:39:38 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (85775be904f59b7034ad9464186680f7)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-09 08:39:38 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-09 08:39:39 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-09 08:39:39 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-09 08:39:45 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-09 08:39:45 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-09 08:39:45 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-09 08:39:45 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-09 08:39:45 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-09 08:39:47 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/login.php?action=process&osCsid=65ulsmq8f389a9j7orgap2ebv3
+2018-05-09 08:39:47 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
+2018-05-09 08:39:47 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (f0958c30f7ccd4e2ae754896e92c9e02)] -> xpath: //*[@class='messageStackError']//td[1]]
+2018-05-09 08:39:47 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-05-09 08:47:24 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-09 08:47:27 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga952018@gmail.com
+2018-05-09 08:47:27 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-09 08:47:27 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-09 08:47:27 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-09 08:47:27 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-09 08:47:51 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-09 08:47:51 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-09 08:47:51 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-09 08:47:51 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-09 08:47:51 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-09 08:47:53 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/login.php?action=process&osCsid=sms1c1kn4t8kvo6je9ialpct07
+2018-05-09 08:47:53 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInErrorMessage
+2018-05-09 08:47:53 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (339ec1647f9b535d98cbe3b3f26537dc)] -> xpath: //*[@class='messageStackError']//td[1]]
+2018-05-09 08:47:53 [INFO ] [SignIn] - [signIn] The SignIn is UnSuccessful
+2018-05-09 08:49:40 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/create_account_success.php
+2018-05-09 08:49:40 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-09 08:49:42 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Jaga
+2018-05-09 08:49:42 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Waran
+2018-05-09 08:49:42 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 09/05/2018
+2018-05-09 08:49:42 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga952018@gmail.com
+2018-05-09 08:49:42 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : IT Company
+2018-05-09 08:49:42 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Sholinganallur
+2018-05-09 08:49:42 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 600119
+2018-05-09 08:49:42 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : Chennai
+2018-05-09 08:49:42 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : TamilNadu
+2018-05-09 08:49:42 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : India
+2018-05-09 08:49:42 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : 9876543212
+2018-05-09 08:49:42 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-09 08:49:42 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-09 08:49:42 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-09 08:49:42 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-09 08:49:42 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-09 08:49:52 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-09 08:49:52 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : CreateAccContinueBtn
+2018-05-09 08:49:54 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : genderOption
+2018-05-09 08:49:54 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : firstName
+2018-05-09 08:49:55 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : lastName
+2018-05-09 08:49:55 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : dateOfBirth
+2018-05-09 08:49:55 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : emailAddress
+2018-05-09 08:49:55 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : companyName
+2018-05-09 08:49:56 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : address
+2018-05-09 08:49:56 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : postCode
+2018-05-09 08:49:56 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : cityName
+2018-05-09 08:49:56 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : stateName
+2018-05-09 08:49:56 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : countryName
+2018-05-09 08:49:56 [INFO ] [DropDownHelper] - [selectByVisibleText] Element : [[ChromeDriver: chrome on XP (2327315f81a0d4fbf35aed3cc5513b1c)] -> name: country]Visible Text : India
+2018-05-09 08:49:56 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : telePhoneNumber
+2018-05-09 08:49:57 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-09 08:49:57 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : confirmationPassword
+2018-05-09 08:49:57 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : submitButton
+2018-05-09 08:50:00 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/create_account_success.php
+2018-05-09 08:50:00 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : successMessage
+2018-05-09 08:50:00 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (2327315f81a0d4fbf35aed3cc5513b1c)] -> xpath: //*[@class='grid_16 push_4']/h1]
+2018-05-09 08:50:00 [INFO ] [AccountCreation] - [createAccount] The Account Registration is Successful
+2018-05-09 08:50:03 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga952018@gmail.com
+2018-05-09 08:50:03 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-09 08:50:03 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-09 08:50:03 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-09 08:50:03 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-09 08:50:07 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-09 08:50:07 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-09 08:50:07 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-09 08:50:07 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-09 08:50:07 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-09 08:50:10 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-09 08:50:10 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-09 08:50:10 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (fc91df2f289e9a7723ee28579d60ede1)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-09 08:50:10 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-10 22:29:03 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-10 22:29:05 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga952018@gmail.com
+2018-05-10 22:29:05 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-10 22:29:05 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-10 22:29:05 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-10 22:29:05 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-10 22:29:31 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-10 22:29:31 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-10 22:29:31 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-10 22:29:32 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-10 22:29:33 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-10 22:29:36 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-10 22:29:36 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-10 22:29:36 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (f5a34399f9ae8406d283798b242c6130)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-10 22:29:36 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-10 22:32:17 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-10 22:32:18 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga952018@gmail.com
+2018-05-10 22:32:18 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-10 22:32:18 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-10 22:32:18 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-10 22:32:18 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-10 22:32:36 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-10 22:32:36 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-10 22:32:36 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-10 22:32:37 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-10 22:32:37 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-10 22:32:40 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-10 22:32:40 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-10 22:32:40 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (6dd8a9cc2b3738aa4c4223302f136b33)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-10 22:32:40 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-10 22:41:35 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-10 22:41:37 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga952018@gmail.com
+2018-05-10 22:41:37 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-10 22:41:37 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-10 22:41:37 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-10 22:41:37 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-10 22:42:00 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-10 22:42:00 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-10 22:42:00 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-10 22:42:01 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-10 22:42:01 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-10 22:42:04 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-10 22:42:04 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-10 22:42:04 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (862ac7b6d346dd8873d85aa4f314098d)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-10 22:42:04 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-11 08:07:17 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-11 08:07:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga952018@gmail.com
+2018-05-11 08:07:19 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-11 08:07:19 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-11 08:07:19 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-11 08:07:19 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-11 08:07:39 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-11 08:07:39 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-11 08:07:39 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-11 08:07:39 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-11 08:07:40 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-11 08:07:42 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-11 08:07:42 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-11 08:07:42 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (a69dc9e6e015b7f99484b8bacf74d184)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-11 08:07:42 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-19 11:07:08 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-19 11:07:11 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga952018@gmail.com
+2018-05-19 11:07:11 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-19 11:07:11 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-19 11:07:11 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-19 11:07:11 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-19 11:07:39 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-19 11:07:39 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-19 11:07:39 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-19 11:07:40 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-19 11:07:40 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-19 11:07:48 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-19 11:07:48 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-19 11:07:48 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (b3643660d6466c9f75ff43b9a7dd91e8)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-19 11:07:48 [INFO ] [SignIn] - [signIn] The SignIn is Successful
+2018-05-19 11:08:22 [INFO ] [BaseClass] - [getTestData] The Data from Property File is : http://www.gcrit.com/build3/index.php
+2018-05-19 11:08:22 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : testjaga952018@gmail.com
+2018-05-19 11:08:22 [INFO ] [ExcelReader] - [getExcelData] The Data from Excel Sheet is : jaga@12345
+2018-05-19 11:08:22 [INFO ] [ExcelReader] - [getExcelData]  
+2018-05-19 11:08:23 [INFO ] [BaseClass] - [init] Operating Environment : Windows 10
+2018-05-19 11:08:23 [INFO ] [BaseClass] - [init] Browser : chrome
+2018-05-19 11:08:38 [INFO ] [WaitHelper] - [setImplicitWait] Impicit Wait Time Set to : 20 SECONDS
+2018-05-19 11:08:38 [INFO ] [SignIn] - [signIn] In Application Login Page
+2018-05-19 11:08:38 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : email
+2018-05-19 11:08:39 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : password
+2018-05-19 11:08:39 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : loginButton
+2018-05-19 11:08:46 [INFO ] [BrowserHelper] - [getCurrentPageUrl] Current Page Url : http://www.gcrit.com/build3/index.php
+2018-05-19 11:08:46 [INFO ] [BaseClass] - [getWebElement] Object Fetched From Property File : signInSucessMessage
+2018-05-19 11:08:46 [INFO ] [VerificationHelper] - [isDisplayed] WebElement is displayed : [[ChromeDriver: chrome on XP (472497ba1790d7efb820a93d30cc2d48)] -> xpath: //a[@id='tdb4']/span[contains(@class,'ui-button-text')]]
+2018-05-19 11:08:46 [INFO ] [SignIn] - [signIn] The SignIn is Successful

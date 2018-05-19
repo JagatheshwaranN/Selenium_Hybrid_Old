@@ -55,7 +55,8 @@ public class BaseClass {
 	public static ITestResult result;
 	public ExcelReader excelreader;
 
-	public static String extentReportPath = "./extent-report/";
+	//public static String extentReportPath = "./extent-report/";
+	public static String extentReportPath = "./target/surefire-reports/";
 	public static String browserDriverPath = "//src//main//resources//Drivers//";
 	public static String propertyFilePath = "//src//main//java//com//jaga//hybrid//properties//object.properties";
 	public static String excelFilePath = "//src//test//resources//TestData//";
@@ -64,8 +65,9 @@ public class BaseClass {
 	static {
 		Calendar calendar = Calendar.getInstance();
 		SimpleDateFormat simpledateformat = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
-		extentreports = new ExtentReports(extentReportPath + simpledateformat.format(calendar.getTime()) + ".html",
-				false);
+		//extentreports = new ExtentReports(extentReportPath + simpledateformat.format(calendar.getTime()) + ".html",
+		extentreports = new ExtentReports(extentReportPath + "ExtentReport.html",
+				true);
 	}
 
 	@BeforeMethod
@@ -78,7 +80,7 @@ public class BaseClass {
 	@AfterMethod
 	public void afterMethod(ITestResult result) throws IOException {
 		getResult(result);
-		driver.close();
+		driver.quit();
 	}
 
 	@AfterClass(alwaysRun = true)

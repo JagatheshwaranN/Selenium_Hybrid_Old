@@ -2,6 +2,7 @@ package com.jaga.hybrid.excelreader;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.Iterator;
 import java.lang.String;
 
@@ -81,6 +82,12 @@ public class ExcelReader {
 
 		} catch (Exception exception) {
 			exception.printStackTrace();
+		}
+		try {
+			file.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 		return null;
 	}

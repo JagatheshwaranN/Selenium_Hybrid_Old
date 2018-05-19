@@ -2,107 +2,54 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13245" started-at="2018-04-24T04:26:04Z" finished-at="2018-04-24T04:26:17Z">
+  <suite name="Regression Suite" duration-ms="41766" started-at="2018-05-19T05:37:09Z" finished-at="2018-05-19T05:37:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13245" started-at="2018-04-24T04:26:04Z" finished-at="2018-04-24T04:26:17Z">
-      <class name="com.jaga.hybrid.testscripts.AccountCreationHandlingAlert">
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.jaga.hybrid.testscripts.AccountCreationHandlingAlert@2cd91f]" name="beforeMethod" is-config="true" duration-ms="6664" started-at="2018-04-24T09:56:05Z" finished-at="2018-04-24T09:56:12Z">
+    <test name="SignIn" duration-ms="41766" started-at="2018-05-19T05:37:09Z" finished-at="2018-05-19T05:37:50Z">
+      <class name="com.jaga.hybrid.testscripts.SignIn">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.jaga.hybrid.testscripts.SignIn@1c072cb]" name="beforeMethod" is-config="true" duration-ms="28094" started-at="2018-05-19T11:07:11Z" finished-at="2018-05-19T11:07:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.jaga.hybrid.testscripts.AccountCreationHandlingAlert.createAccountHandlingAlert(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+                <![CDATA[public void com.jaga.hybrid.testscripts.SignIn.signIn(java.lang.String,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="createAccountHandlingAlert(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jaga.hybrid.testscripts.AccountCreationHandlingAlert@2cd91f]" name="createAccountHandlingAlert" duration-ms="4835" started-at="2018-04-24T09:56:12Z" data-provider="CAHandlingAlert" finished-at="2018-04-24T09:56:17Z">
+        <test-method status="PASS" signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:com.jaga.hybrid.testscripts.SignIn@1c072cb]" name="signIn" duration-ms="9034" started-at="2018-05-19T11:07:39Z" data-provider="signIn" finished-at="2018-05-19T11:07:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Jaga]]>
+                <![CDATA[testjaga952018@gmail.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Waran]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[05/04/2018]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[testjaga24042018@gmail.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[IT Company]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Sholinganallur]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[600119]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[Chennai]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[TamilNadu]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[India]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[9876543212]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
                 <![CDATA[jaga@12345]]>
               </value>
-            </param>
-            <param index="12">
-              <value is-null="true"/>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createAccountHandlingAlert -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jaga.hybrid.testscripts.AccountCreationHandlingAlert@2cd91f]" name="afterMethod" is-config="true" duration-ms="254" started-at="2018-04-24T09:56:17Z" finished-at="2018-04-24T09:56:17Z">
+        </test-method> <!-- signIn -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jaga.hybrid.testscripts.SignIn@1c072cb]" name="afterMethod" is-config="true" duration-ms="1817" started-at="2018-05-19T11:07:48Z" finished-at="2018-05-19T11:07:50Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=createAccountHandlingAlert status=SUCCESS method=AccountCreationHandlingAlert.createAccountHandlingAlert(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jaga.hybrid.testscripts.AccountCreationHandlingAlert@2cd91f] output={null}]]]>
+                <![CDATA[[TestResult name=signIn status=SUCCESS method=SignIn.signIn(java.lang.String, java.lang.String)[pri:0, instance:com.jaga.hybrid.testscripts.SignIn@1c072cb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.jaga.hybrid.testscripts.AccountCreationHandlingAlert@2cd91f]" name="afterClass" is-config="true" duration-ms="460" started-at="2018-04-24T09:56:17Z" finished-at="2018-04-24T09:56:17Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.jaga.hybrid.testscripts.SignIn@1c072cb]" name="afterClass" is-config="true" duration-ms="608" started-at="2018-05-19T11:07:50Z" finished-at="2018-05-19T11:07:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.jaga.hybrid.testscripts.AccountCreationHandlingAlert -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.jaga.hybrid.testscripts.SignIn -->
+    </test> <!-- SignIn -->
+  </suite> <!-- Regression Suite -->
 </testng-results>
